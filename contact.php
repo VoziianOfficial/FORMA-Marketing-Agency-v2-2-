@@ -11,12 +11,14 @@ function reply(int $status, array $body): never {
     echo json_encode($body, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
     exit;
 }
-$configPath = __DIR__ . '/config/site.json';
-if (!is_file($configPath)) {
-    $configPath = dirname(__DIR__) . '/dist/config/site.json';
-}
+$configPath = __DIR__ . '/config/config.js';
 try {
-    $config = json_decode((string)file_get_contents($configPath), true, 512, JSON_THROW_ON_ERROR);
+    $source = (string)file_get_contents($configPath);
+    if (!preg_match('/window\.SITE_CONFIG\s*=\s*(\{.*\})\s*;?\s*$/s', $source, $match)) {
+        throw new RuntimeException('Invalid configuration');
+    }
+    $config = json_decode($match[1], true, 512, JSON_THROW_ON_ERROR);
+    $config['form']['services'] = array_merge(array_column($config['services'], 'short'), $config['form']['additionalServices']);
 } catch (Throwable $e) {
     reply(503, ['success' => false, 'message' => 'Contact service unavailable.']);
 }
