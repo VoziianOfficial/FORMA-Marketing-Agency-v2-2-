@@ -47,19 +47,19 @@ window.SITE_CONFIG = {
     "endpoint": "contact.php",
     "enabled": true,
     "subject": "New website enquiry",
-    "successMessage": "Thank you! We have successfully received your request. Our team will review your information and get back to you shortly.",
-    "errorMessage": "Your request could not be sent. Please try again later or contact us by email.",
+    "successMessage": "Thank you! Your enquiry has been sent. We’ll review your project details and get back to you.",
+    "errorMessage": "Your enquiry could not be sent. Please try again later.",
     "maxMessageLength": 5000,
     "minMessageLength": 20,
     "rateLimitSeconds": 60,
     "additionalServices": [
-      "Advertising & Collaboration",
-      "Something else"
+      "Creative collaboration",
+      "Not sure yet"
     ]
   },
   "advertise": {
-    "title": "Advertise & Collaborate",
-    "text": "We are always open to new opportunities, high-impact collaborations, and tailored business partnerships. Whether you want to advertise your brand to our audience, launch a joint project, or book our professional services, we are ready to bring your ideas to life. Every business is unique, and we don't believe in one-size-fits-all solutions. Please reach out to us using the contact form below, tell us a bit about your goals, and our team will get back to you with an exclusive, custom-tailored proposal designed strictly for your budget and objectives. Let’s build something great together."
+    "title": "Let’s talk about your project",
+    "text": "Tell us about your brand, your goals and the support you need. Whether you’re planning a social media programme, a paid advertising campaign or a brand and content project, we’ll help define the right scope. Share your timeline and indicative budget, and we’ll follow up to discuss a tailored proposal. For creative partnerships, choose “Creative collaboration” in the form."
   },
   "pricing": {
     "currency": "€",
@@ -218,8 +218,8 @@ window.SITE_CONFIG = {
   ],
   "rotatingTitles": [
     "Social Media Marketing",
-    "Performance & Paid Media",
-    "Brand Stories That Connect"
+    "Paid Advertising",
+    "Brand & Content"
   ],
   "galleryCopy": {
     "all": [
@@ -239,8 +239,8 @@ window.SITE_CONFIG = {
       "Editorial ideas, considered design and purposeful production make every piece of content part of a bigger story."
     ],
     "digital": [
-      "Built for connection.",
-      "Digital experiences bring your brand to life, connecting creative expression with intuitive, useful interactions."
+      "Campaigns with a clear purpose.",
+      "Paid advertising brings audience insight, campaign creative and testing together to reach the people most relevant to your brand."
     ]
   },
   "principles": [
@@ -288,7 +288,7 @@ window.SITE_CONFIG = {
         "html": "STRATEGY · CREATIVE · MOMENTUM"
       },
       "just_the_essentials_our_privacy_policy": {
-        "html": "Just the essentials. <a href=\"cookies.html\">Our privacy policy</a>"
+        "html": "We use essential cookies for the contact form and local storage to remember this notice. <a href=\"cookies.html\">Cookie Policy</a>"
       },
       "got_it": {
         "html": "Got it"
@@ -403,7 +403,7 @@ window.SITE_CONFIG = {
         "href": "index.html#services"
       },
       "let_s_build_your_next_move": {
-        "html": "Let’s build your next move<span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
+        "html": "Let’s plan your next move<span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
         "href": "index.html#contact"
       }
     },
@@ -424,7 +424,7 @@ window.SITE_CONFIG = {
         "html": "Our vision"
       },
       "your_partnership": {
-        "html": "Your partnership"
+        "html": "Working together"
       },
       "clear_decisions_thoughtful_feedback_and_a_shared_view_of_w": {
         "html": "Clear decisions, thoughtful feedback and a shared view of what comes next."
@@ -435,7 +435,7 @@ window.SITE_CONFIG = {
         "html": "A scope that fits."
       },
       "illustrative_starting_fees_final_scope_agreed_in_your_prop": {
-        "html": "Illustrative starting fees.<br>Final scope agreed in your proposal."
+        "html": "Illustrative starting fees.<br>Scope, billing and any additional costs are agreed in your proposal."
       },
       "from": {
         "html": "from"
@@ -515,7 +515,7 @@ window.SITE_CONFIG = {
           "html": "IDEAS IN MOTION"
         },
         "make_some_real_impact_make_some_real_impact": {
-          "html": "<span class=\"hero-marquee-track\"><span>Make some real impact. ✳ </span><span aria-hidden=\"true\">Make some real impact. ✳ </span></span>"
+          "html": "<span class=\"hero-marquee-track\"><span>Make a real impact. ✳ </span><span aria-hidden=\"true\">Make a real impact. ✳ </span></span>"
         },
         "about": {
           "html": "About",
@@ -547,7 +547,7 @@ window.SITE_CONFIG = {
           "href": "#about"
         },
         "input": {
-          "placeholder": "Find your next move…"
+          "placeholder": "Search services, work or contact…"
         },
         "abstract_creative_direction": {
           "src": "assets/mini-1.webp",
@@ -913,7 +913,7 @@ window.SITE_CONFIG = {
           "html": "Discovery phase"
         },
         "a_focused_stage_with_a_clear_outcome_and_space_for_your_fe": {
-          "html": "A focused stage, with a clear outcome and space for your feedback."
+          "html": "We explore your business, audience and current channels, then agree a brief with clear priorities."
         },
         "1_brand_conversation": {
           "html": "<span class=\"process-number\">1.</span>Brand conversation"
@@ -934,7 +934,7 @@ window.SITE_CONFIG = {
           "html": "Creative phase"
         },
         "a_focused_stage_with_a_clear_outcome_and_space_for_your_fe_2": {
-          "html": "A focused stage, with a clear outcome and space for your feedback."
+          "html": "We develop the concept, messaging and content, with agreed review points before production and launch."
         },
         "5_creative_concept": {
           "html": "<span class=\"process-number\">5.</span>Creative concept"
@@ -958,7 +958,7 @@ window.SITE_CONFIG = {
           "html": "Evolve"
         },
         "a_focused_stage_with_a_clear_outcome_and_space_for_your_fe_3": {
-          "html": "A focused stage, with a clear outcome and space for your feedback."
+          "html": "We launch the approved work, review performance and use the findings to guide the next round of improvements."
         },
         "9_launch_learn": {
           "html": "<span class=\"process-number\">9.</span>Launch & learn"
@@ -990,7 +990,7 @@ window.SITE_CONFIG = {
           "html": "DIFFERENT MINDS. SHARED MOMENTUM."
         },
         "the_people_perspective": {
-          "html": "The people perspective."
+          "html": "The expertise behind the work."
         },
         "your_project_brings_together_these_disciplines_from_shared": {
           "html": "Your project brings together these disciplines.<br>From shared strategy to creative delivery."
@@ -998,7 +998,7 @@ window.SITE_CONFIG = {
       },
       "reviews": {
         "the_client_perspective": {
-          "html": "THE CLIENT PERSPECTIVE"
+          "html": "SAMPLE CLIENT PERSPECTIVES"
         },
         "good_words_great_chemistry": {
           "html": "Good words. Great chemistry."
@@ -1007,7 +1007,7 @@ window.SITE_CONFIG = {
           "html": "A little of what a thoughtful partnership can feel like."
         },
         "sample_testimonials_for_layout_preview": {
-          "html": "Sample testimonials for layout preview."
+          "html": "Illustrative testimonials showing the intended client experience."
         },
         "brand_founder": {
           "html": "Brand founder"
@@ -1113,7 +1113,7 @@ window.SITE_CONFIG = {
           "html": "Monthly"
         },
         "illustrative_starting_prices_media_spend_excluded": {
-          "html": "Illustrative starting prices. Media spend excluded."
+          "html": "Illustrative monthly fees. Annual billing includes a 15% discount. Media spend is separate; deliverables and any additional production costs are agreed in your proposal."
         },
         "every_plan_includes": {
           "html": "Every plan includes"
@@ -1440,7 +1440,7 @@ window.SITE_CONFIG = {
           "html": "Tell us what you have in mind.<br>We’ll help you see what’s possible."
         },
         "build_a_tailored_proposal": {
-          "html": "Build a tailored proposal <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
+          "html": "Request a tailored proposal <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
           "href": "#contact"
         },
         "clear_scope": {
@@ -1529,7 +1529,7 @@ window.SITE_CONFIG = {
           "href": "#contact"
         },
         "advertise": {
-          "html": "Advertise <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
+          "html": "Plan a paid campaign <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
           "href": "#contact"
         },
         "where_we_work": {
@@ -1557,13 +1557,13 @@ window.SITE_CONFIG = {
           "html": "(optional)"
         },
         "i_agree_to_the_privacy_policy_and_the_processing_of_my_enq": {
-          "html": "I agree to the <a href=\"privacy.html\">Privacy Policy</a> and the processing of my enquiry."
+          "html": "I have read the <a href=\"privacy.html\">Privacy Policy</a> and agree to the processing of my information to respond to this enquiry."
         },
         "send_your_request": {
           "html": "Send your request <span class=\"vector-arrow\" aria-hidden=\"true\"></span>"
         },
         "name": {
-          "placeholder": "Alex Morgan"
+          "placeholder": "Your full name"
         },
         "email": {
           "placeholder": "you@company.com"
@@ -1651,7 +1651,7 @@ window.SITE_CONFIG = {
           "html": "Ownership and external links"
         },
         "original_website_materials_and_third_party_assets_are_subj": {
-          "html": "Original website materials and third-party assets are subject to their respective rights. External websites operate under their own terms and policies. Flaticon icons are credited to their creators; photographs are sourced from Unsplash."
+          "html": "Original website materials and third-party assets are subject to their respective rights. External websites operate under their own terms and policies. Icons are sourced from Flaticon; photography sources include Unsplash and Pexels, linked in the footer."
         }
       },
       "policy-5": {
@@ -1706,7 +1706,7 @@ window.SITE_CONFIG = {
           "html": "Privacy preference"
         },
         "the_browser_key_forma_privacy_stores_your_acknowledgement_": {
-          "html": "The browser key forma-privacy stores your acknowledgement on this device. You can reset it using Privacy preferences in the footer or by clearing this website’s browser data."
+          "html": "Local storage remembers your acknowledgement in this browser until you clear this website’s browser data. This preference does not enable advertising or analytics tracking."
         }
       },
       "policy-2": {
@@ -1714,7 +1714,7 @@ window.SITE_CONFIG = {
           "html": "Contact form protection"
         },
         "on_php_hosting_the_contact_endpoint_uses_an_essential_sess": {
-          "html": "On PHP hosting, the contact endpoint uses an essential session cookie to protect form requests and limit repeated submissions. This cookie is not used for advertising."
+          "html": "The contact form uses a session cookie to help prevent forged requests and repeated submissions. It is not used for advertising."
         }
       },
       "policy-3": {
@@ -1722,7 +1722,7 @@ window.SITE_CONFIG = {
           "html": "External services"
         },
         "fonts_scripts_icons_and_photos_are_served_locally_in_the_s": {
-          "html": "Fonts, scripts, icons and photos are served locally in the supplied website package. External social or attribution links only open when selected. Hosting providers may use essential security mechanisms subject to their own policies."
+          "html": "Fonts, scripts, icons and photos are served from this website. External social and photography credit links open only when you select them. The destination websites have their own privacy and cookie policies."
         }
       },
       "policy-4": {
@@ -1730,7 +1730,7 @@ window.SITE_CONFIG = {
           "html": "Future changes"
         },
         "if_analytics_advertising_embedded_media_or_other_non_essen": {
-          "html": "If analytics, advertising, embedded media or other non-essential tracking is introduced, this notice and the consent controls must be updated before those tools are enabled."
+          "html": "If we introduce analytics, advertising, embedded media or other non-essential tracking, we will update this policy and provide any required consent controls before enabling those tools."
         }
       },
       "policy-5": {
@@ -1777,7 +1777,7 @@ window.SITE_CONFIG = {
           "html": "<small>YOUR NEXT CHAPTER</small><strong>Build</strong><span>Create a focused campaign.</span>"
         },
         "your_next_chapter_test_learn_from_real_response": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Test</strong><span>Learn from real response.</span>"
+          "html": "<small>YOUR NEXT CHAPTER</small><strong>Test</strong><span>Learn from audience response.</span>"
         },
         "your_next_chapter_improve_refine_the_next_decision": {
           "html": "<small>YOUR NEXT CHAPTER</small><strong>Improve</strong><span>Refine the next decision.</span>"
@@ -1826,7 +1826,7 @@ window.SITE_CONFIG = {
           "html": "Bring media planning, creative testing and measurement into one accountable process."
         },
         "bring_media_planning_creative_testing_and_measurement_into_2": {
-          "html": "Bring media planning, creative testing and measurement into one accountable process."
+          "html": "Build campaigns around clear objectives, relevant audiences and measurement that supports informed decisions."
         },
         "connect_the_right_offer_with_the_right_audience_at_a_momen": {
           "html": "Connect the right offer with the right audience at a moment that matters."
@@ -1837,13 +1837,13 @@ window.SITE_CONFIG = {
           "html": "Campaign foundation"
         },
         "account_review_audience_planning_and_a_measurement_roadmap": {
-          "html": "Account review, audience planning and a measurement roadmap."
+          "html": "A one-off setup project covering account review, audience planning and a measurement roadmap."
         },
         "campaign_management": {
           "html": "Campaign management"
         },
         "ongoing_optimisation_creative_testing_and_transparent_repo": {
-          "html": "Ongoing optimisation, creative testing and transparent reporting."
+          "html": "Monthly campaign management, including optimisation, creative testing and reporting. Media spend is separate; creative production is scoped in your proposal."
         },
         "which_advertising_platforms_fit_us": {
           "html": "Which advertising platforms fit us?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2064,7 +2064,7 @@ window.SITE_CONFIG = {
           "html": "Connect positioning, design and content in a brand system your team can use with confidence."
         },
         "connect_positioning_design_and_content_in_a_brand_system_y_2": {
-          "html": "Connect positioning, design and content in a brand system your team can use with confidence."
+          "html": "Build a recognisable brand that stays consistent across campaigns, content and everyday communication."
         },
         "give_your_business_a_visual_and_verbal_language_that_peopl": {
           "html": "Give your business a visual and verbal language that people recognise and remember."
@@ -2075,13 +2075,13 @@ window.SITE_CONFIG = {
           "html": "Brand direction"
         },
         "positioning_messaging_priorities_and_a_focused_creative_co": {
-          "html": "Positioning, messaging priorities and a focused creative concept."
+          "html": "A project covering positioning, messaging priorities and a focused creative concept."
         },
         "identity_content": {
           "html": "Identity & content"
         },
         "a_tailored_identity_system_selected_assets_and_practical_g": {
-          "html": "A tailored identity system, selected assets and practical guidelines."
+          "html": "A project covering an identity system, agreed content assets and practical guidelines. Production and third-party licences are scoped separately."
         },
         "can_you_refresh_an_existing_brand": {
           "html": "Can you refresh an existing brand?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2305,7 +2305,7 @@ window.SITE_CONFIG = {
           "html": "Bring your story, audience and channel strategy into one consistent social presence."
         },
         "bring_your_story_audience_and_channel_strategy_into_one_co_2": {
-          "html": "Bring your story, audience and channel strategy into one consistent social presence."
+          "html": "Build a social presence your audience recognises, with useful content and a consistent brand voice."
         },
         "make_your_brand_part_of_a_conversation_people_actually_wan": {
           "html": "Make your brand part of a conversation people actually want to join."
@@ -2316,13 +2316,13 @@ window.SITE_CONFIG = {
           "html": "Channel direction"
         },
         "audience_research_platform_priorities_and_a_practical_cont": {
-          "html": "Audience research, platform priorities and a practical content framework."
+          "html": "A one-off strategy project covering audience research, platform priorities and a practical content framework."
         },
         "monthly_content": {
           "html": "Monthly content"
         },
         "a_tailored_calendar_original_creative_and_monthly_reportin": {
-          "html": "A tailored calendar, original creative and monthly reporting."
+          "html": "Monthly content planning and 8 original posts for one social channel, with caption writing and performance reporting."
         },
         "which_platforms_should_we_use": {
           "html": "Which platforms should we use?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2547,25 +2547,25 @@ window.SITE_CONFIG = {
   },
   "pageMeta": {
     "home": {
-      "description": "Independent marketing agency for social media, paid advertising and distinctive brand content."
+      "description": "FORMA is an independent marketing agency bringing together social media, paid advertising, brand strategy and original content."
     },
     "terms": {
-      "description": "Independent marketing agency for social media, paid advertising and distinctive brand content."
+      "description": "Terms for using the FORMA demonstration website, including service proposals, illustrative content, intellectual property and marketing outcomes."
     },
     "cookies": {
-      "description": "Independent marketing agency for social media, paid advertising and distinctive brand content."
+      "description": "How the FORMA website uses essential contact form cookies and local storage, with information about external links and browser preferences."
     },
     "paid-advertising": {
-      "description": "Independent marketing agency for social media, paid advertising and distinctive brand content."
+      "description": "Google and social advertising from FORMA, with campaign planning, creative testing, optimisation and transparent reporting. Media spend is separate."
     },
     "brand-content": {
-      "description": "Independent marketing agency for social media, paid advertising and distinctive brand content."
+      "description": "Brand positioning, visual identity, messaging and campaign content from FORMA. Explore our creative process, deliverables and illustrative project fees."
     },
     "social-media": {
-      "description": "Independent marketing agency for social media, paid advertising and distinctive brand content."
+      "description": "Social media strategy, content planning, production, community management and reporting from FORMA. Explore our approach and illustrative fees."
     },
     "privacy": {
-      "description": "Independent marketing agency for social media, paid advertising and distinctive brand content."
+      "description": "Learn how the FORMA website handles contact enquiries and personal information, including processing, service providers and your choices."
     }
   },
   "galleryLabels": {
@@ -2573,6 +2573,6 @@ window.SITE_CONFIG = {
     "strategy": "Strategy",
     "brand": "Brand identity",
     "content": "Content",
-    "digital": "Digital campaigns"
+    "digital": "Paid campaigns"
   }
 };
