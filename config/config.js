@@ -1,11 +1,11 @@
 window.SITE_CONFIG = {
   "companyName": "FORMA",
-  "siteTitle": "FORMA — Independent Marketing Agency",
+  "siteTitle": "FORMA — Google Ads & Meta Ads Agency",
   "email": "hello@forma-agency.example",
   "address": "Working worldwide. Thinking beyond borders.",
   "logo": "assets/logo.svg",
   "favicon": "assets/favicon.svg",
-  "footerTagline": "Good thinking. Bold moves. Real connection.",
+  "footerTagline": "Google Ads. Meta Ads. Creative that connects.",
   "copyright": "All rights reserved.",
   "disclaimer": "This is a demonstration agency website. Projects, team portraits, testimonials and prices are illustrative placeholders, not verified client results or offers. Marketing outcomes vary; no specific results are guaranteed.",
   "links": {
@@ -53,58 +53,59 @@ window.SITE_CONFIG = {
     "minMessageLength": 20,
     "rateLimitSeconds": 60,
     "additionalServices": [
-      "Creative collaboration",
+      "Google Ads + Meta Ads",
+      "Measurement & tracking support",
       "Not sure yet"
     ]
   },
   "advertise": {
-    "title": "Let’s talk about your project",
-    "text": "Tell us about your brand, your goals and the support you need. Whether you’re planning a social media programme, a paid advertising campaign or a brand and content project, we’ll help define the right scope. Share your timeline and indicative budget, and we’ll follow up to discuss a tailored proposal. For creative partnerships, choose “Creative collaboration” in the form."
+    "title": "Let’s plan your next campaign",
+    "text": "Tell us what you want to achieve with Google Ads, Facebook or Instagram. We can help with campaign setup, ongoing management, measurement and the content your campaigns need. Share your website, target market, timeline and indicative advertising budget, and we’ll discuss a scope that fits. Media spend is paid separately to Google or Meta."
   },
   "pricing": {
-    "currency": "€",
+    "currency": "$",
     "annualDiscount": 15,
     "plans": [
       {
         "name": "Start",
         "monthly": 690,
-        "description": "A thoughtful first step for an ambitious brand.",
+        "description": "A focused start for your Facebook and Instagram advertising.",
         "features": [
-          "Social direction & content calendar",
-          "8 original posts per month",
-          "One social channel",
-          "Caption writing & content guidance",
+          "Meta Ads campaign management",
+          "Agreed Facebook & Instagram placements",
+          "Audience and campaign planning",
+          "Testing with your existing creative",
+          "Meta Pixel measurement review",
           "Monthly performance report",
-          "Email project support",
-          "A clear monthly delivery plan"
+          "Media spend and new production excluded"
         ]
       },
       {
         "name": "Grow",
         "monthly": 1490,
-        "description": "Creative and performance, working together.",
+        "description": "Google Ads and Meta Ads, planned together.",
         "features": [
-          "Strategy & content calendar",
-          "16 original posts per month",
-          "Two social channels",
-          "Paid campaign management",
-          "Creative testing & optimisation",
-          "Monthly performance review",
-          "A shared project workspace"
+          "Google Ads & Meta Ads management",
+          "Agreed campaign types and budgets",
+          "Keyword and audience planning",
+          "Cross-platform creative testing",
+          "Conversion tracking review",
+          "Monthly performance discussion",
+          "Media spend and new production excluded"
         ]
       },
       {
         "name": "Scale",
         "monthly": 2890,
-        "description": "An integrated team for your next chapter.",
+        "description": "Connected advertising, social content and creative support.",
         "features": [
-          "Integrated campaign strategy",
-          "Full-funnel media planning",
-          "Brand content production",
-          "Multiple creative formats",
-          "Detailed performance insights",
-          "Dedicated strategic support",
-          "A tailored delivery roadmap"
+          "Google Ads & Meta Ads strategy",
+          "Campaign management & optimisation",
+          "Facebook & Instagram content calendar",
+          "Ad creative and social content production",
+          "Google Analytics 4 reporting review",
+          "Agreed asset volumes & review rounds",
+          "Media spend and external production excluded"
         ]
       }
     ]
@@ -125,158 +126,161 @@ window.SITE_CONFIG = {
   },
   "services": [
     {
-      "slug": "social-media",
-      "title": "Social that connects.",
-      "short": "Social Media",
-      "intro": "Turn a passing glance into an ongoing conversation. We bring strategy, original content and a recognisable voice to your social presence.",
-      "image": "social",
-      "points": [
-        "Audience & channel strategy",
-        "Content planning & production",
-        "Community management",
-        "Reporting & creative refinement"
-      ],
-      "deliverables": [
-        "A clear channel strategy",
-        "A purposeful content calendar",
-        "Platform-ready creative",
-        "Monthly performance insights"
-      ],
-      "detail": "We start with the people you want to reach, then build a practical content system around their interests and your business goals. Every post has a purpose, every channel has a role, and every report informs what happens next."
-    },
-    {
       "slug": "paid-advertising",
-      "title": "Make every click count.",
-      "short": "Paid Advertising",
-      "intro": "Put your brand in the right place, at the right moment. Thoughtful targeting meets creative that earns attention.",
+      "title": "Be there when they search.",
+      "short": "Google Ads",
+      "intro": "Reach customers through Google Search, YouTube and Display. We plan, build and manage Google Ads campaigns around your offer, audience and business goals.",
       "image": "strategy",
       "points": [
-        "Google & social advertising",
-        "Full-funnel campaign planning",
-        "Creative testing & optimisation",
-        "Transparent budget reporting"
+        "Search, Display & YouTube campaigns",
+        "Performance Max campaign planning",
+        "Google Analytics 4 & conversion tracking",
+        "Budget management & optimisation"
       ],
       "deliverables": [
-        "Account and tracking audit",
-        "Campaign and audience architecture",
-        "A creative testing roadmap",
-        "Clear, regular reporting"
+        "Google Ads account and campaign audit",
+        "Keyword research and campaign structure",
+        "Conversion measurement plan",
+        "Monthly reporting and next steps"
       ],
-      "detail": "From the first impression to the final conversion, we connect campaign strategy, landing-page experience and measurement. We test deliberately, learn continuously and keep you informed about where your budget goes."
+      "detail": "We start with customer intent, keyword research and a review of your Google Ads account. Then we build a campaign plan across relevant Google channels, agree conversion goals and review the landing pages. Google Analytics 4 and Google Tag Manager support measurement where included in the scope. Campaign types, budgets and tracking work are agreed before launch.",
+      "searchTerms": "google ads google search ppc youtube google display performance max google analytics 4 ga4 google tag manager gtm conversion tracking"
+    },
+    {
+      "slug": "social-media",
+      "title": "Turn attention into action.",
+      "short": "Meta Ads",
+      "intro": "Connect with your audience on Facebook and Instagram. We bring campaign strategy, audience planning and creative testing together in Meta Ads Manager.",
+      "image": "social",
+      "points": [
+        "Facebook & Instagram ad campaigns",
+        "Audience planning & remarketing",
+        "Ad creative testing & optimisation",
+        "Meta Pixel & conversion measurement"
+      ],
+      "deliverables": [
+        "Meta ad account and asset review",
+        "Facebook and Instagram campaign plan",
+        "Audience and creative testing roadmap",
+        "Monthly reporting and recommendations"
+      ],
+      "detail": "We review your Meta ad account, Facebook Page, Instagram profile and campaign goals before building the plan. Creative, audiences and landing pages are considered together. We review Meta Pixel and Conversions API requirements where relevant, with implementation scoped around your website and available technical support. Media spend and content production are agreed separately.",
+      "searchTerms": "meta ads facebook instagram paid social meta pixel conversions api remarketing retargeting meta ads manager"
     },
     {
       "slug": "brand-content",
-      "title": "Impossible to overlook.",
-      "short": "Brand & Content",
-      "intro": "A distinctive identity. A story worth sharing. We create the visual and verbal language that makes your brand feel like you.",
+      "title": "Content built for your channels.",
+      "short": "Social Media & Content",
+      "intro": "Give your Facebook and Instagram presence a consistent voice, with social content and ad creative that support your Google Ads and Meta Ads campaigns.",
       "image": "brand",
       "points": [
-        "Brand positioning & voice",
-        "Visual identity & art direction",
-        "Campaign concepts & copy",
-        "Photography & content direction"
+        "Facebook & Instagram content planning",
+        "Social posts, captions & short-form video",
+        "Creative assets for Google & Meta ads",
+        "Content reporting & creative refinement"
       ],
       "deliverables": [
-        "Positioning and messaging framework",
-        "A distinctive visual direction",
-        "Campaign-ready creative assets",
-        "Practical brand guidelines"
+        "Facebook and Instagram content calendar",
+        "Platform-ready posts and captions",
+        "Agreed ad creative formats and variations",
+        "Publishing and creative review workflow"
       ],
-      "detail": "We turn what makes your business different into a consistent, memorable brand experience. Our work brings together strategic thinking, expressive design and content built for the channels your audience actually uses."
+      "detail": "We connect your organic social presence with the messages used in your advertising. From Facebook and Instagram posts to Google Display assets and campaign video, each piece follows an agreed brief. Content volume, publishing, community management and production requirements are defined in your proposal. Paid campaign management is a separate service.",
+      "searchTerms": "social media content creative facebook instagram posts captions reels video youtube display design"
     }
   ],
   "creativeLead": {
     "name": "Alex Morgan",
-    "role": "Creative lead",
+    "role": "Campaign & creative lead",
     "photo": "assets/founder.webp"
   },
   "team": [
     {
-      "name": "Strategy & direction",
-      "description": "Seeing the bigger picture.",
+      "name": "Google Ads & measurement",
+      "description": "Connecting search intent with campaign decisions.",
       "image": "team-strategy-hq.jpg",
       "alt": "A strategist discussing the project direction with colleagues"
     },
     {
-      "name": "Performance & media",
-      "description": "Making every insight useful.",
+      "name": "Meta Ads & audiences",
+      "description": "Planning Facebook and Instagram campaigns.",
       "image": "paid-stage-2.avif",
       "alt": "Colleagues reviewing campaign work at a computer"
     },
     {
-      "name": "Design & storytelling",
-      "description": "Giving your brand its own language.",
+      "name": "Ad creative & design",
+      "description": "Building creative for Google and Meta placements.",
       "image": "brand-detail-1.avif",
       "alt": "Selecting a colour palette for a brand identity"
     },
     {
-      "name": "Content & community",
-      "description": "Building meaningful connections.",
+      "name": "Social media & content",
+      "description": "Keeping Facebook and Instagram content consistent.",
       "image": "social-stage-3.avif",
       "alt": "Content collaborators working at a recording console"
     }
   ],
   "rotatingTitles": [
-    "Social Media Marketing",
-    "Paid Advertising",
-    "Brand & Content"
+    "Google Ads Campaigns",
+    "Meta Ads: Facebook & Instagram",
+    "Social Media & Ad Creative"
   ],
   "galleryCopy": {
     "all": [
-      "Ideas in every direction.",
-      "A glimpse into the thinking, making and collaboration behind a connected brand. Explore the disciplines that bring each story to life."
+      "One connected campaign picture.",
+      "Explore the strategy, creative and content behind Google Ads and Meta Ads campaigns, supported by a consistent Facebook and Instagram presence."
     ],
     "strategy": [
-      "A clear way forward.",
-      "Research, positioning and focused planning turn your ambitions into a practical marketing direction."
+      "Plan around the customer.",
+      "Keyword research, audience insight and clear conversion goals give Google Ads and Meta Ads campaigns a focused starting point."
     ],
     "brand": [
-      "Distinctly your brand.",
-      "Visual identities and memorable messages give your business a recognisable voice, wherever your audience finds you."
+      "Creative with a campaign role.",
+      "Ad copy, images and video are shaped around the offer, the placement and the action you want people to take."
     ],
     "content": [
-      "Stories worth sharing.",
-      "Editorial ideas, considered design and purposeful production make every piece of content part of a bigger story."
+      "Keep the conversation going.",
+      "Facebook and Instagram posts, captions and short-form video keep your message consistent between paid campaigns."
     ],
     "digital": [
-      "Campaigns with a clear purpose.",
-      "Paid advertising brings audience insight, campaign creative and testing together to reach the people most relevant to your brand."
+      "Google intent. Meta discovery.",
+      "Connect Google Ads campaigns with Facebook and Instagram advertising, using relevant creative, agreed budgets and clear performance reporting."
     ]
   },
   "principles": [
     {
-      "tab": "Creative freedom",
-      "title": "Freedom to think. Purpose to guide it.",
-      "text": "Original work needs space to explore. We make room for fresh ideas while keeping your audience, business goals and brand character in focus.",
+      "tab": "Campaign focus",
+      "title": "A clear brief. A useful test.",
+      "text": "Every Google Ads or Meta Ads campaign starts with your offer, audience and a measurable goal. Creative testing follows a question we can learn from.",
       "points": [
-        "A shared creative brief",
-        "Clear decision points",
-        "Space for thoughtful feedback",
-        "A confident next step"
+        "Agreed conversion goals",
+        "Relevant keywords and audiences",
+        "Creative matched to the placement",
+        "A defined test and review plan"
       ],
       "image": "assets/principle-1.webp",
       "alt": "Creative planning around a shared brief"
     },
     {
-      "tab": "A focused framework",
-      "title": "One connected team.",
-      "text": "Strategy, creativity and media work together from the beginning. Every decision supports a shared direction.",
+      "tab": "Connected platforms",
+      "title": "Google and Meta, working together.",
+      "text": "Search intent, social discovery and campaign creative inform one plan. We coordinate the message while reviewing each platform in its own context.",
       "points": [
-        "Cross-discipline collaboration",
-        "A consistent brand experience",
-        "Useful feedback at every stage"
+        "Google Ads and Meta Ads planning",
+        "Consistent offers and messaging",
+        "Clear ownership of accounts and assets"
       ],
       "image": "assets/principle-2.webp",
       "alt": "A collaborative agency team"
     },
     {
-      "tab": "Shared momentum",
-      "title": "Always moving forward.",
-      "text": "We review what is working, listen to your audience and refine the next step with purpose.",
+      "tab": "Measurement & learning",
+      "title": "Make the next decision clearer.",
+      "text": "We review spend, conversion data and creative response to guide the next round of campaign improvements.",
       "points": [
-        "Thoughtful creative testing",
-        "Clear performance reporting",
-        "Practical recommendations"
+        "Agreed tracking and reporting scope",
+        "Context for platform attribution",
+        "Practical recommendations for the next test"
       ],
       "image": "assets/principle-3.webp",
       "alt": "Reviewing the next creative direction"
@@ -285,7 +289,7 @@ window.SITE_CONFIG = {
   "shared": {
     "interface": {
       "strategy_creative_momentum": {
-        "html": "STRATEGY · CREATIVE · MOMENTUM"
+        "html": "GOOGLE ADS · META ADS · CONTENT"
       },
       "just_the_essentials_our_privacy_policy": {
         "html": "We use essential cookies for the contact form and local storage to remember this notice. <a href=\"cookies.html\">Cookie Policy</a>"
@@ -318,15 +322,15 @@ window.SITE_CONFIG = {
         "href": "index.html"
       },
       "s": {
-        "html": "S",
+        "html": "M",
         "href": "social-media.html"
       },
       "p": {
-        "html": "P",
+        "html": "G",
         "href": "paid-advertising.html"
       },
       "b": {
-        "html": "B",
+        "html": "C",
         "href": "brand-content.html"
       },
       "illustrative_creative_lead": {
@@ -364,10 +368,10 @@ window.SITE_CONFIG = {
     },
     "site-menu": {
       "good_things_start_with_a_conversation": {
-        "html": "Good things start with a conversation."
+        "html": "Your next Google Ads or Meta Ads campaign starts here."
       },
       "strategy_creativity_momentum": {
-        "html": "Strategy. Creativity. Momentum."
+        "html": "Google Ads. Meta Ads. Social content."
       }
     },
     "item": {
@@ -399,7 +403,7 @@ window.SITE_CONFIG = {
     },
     "service_hero": {
       "all_expertise": {
-        "html": "All expertise",
+        "html": "All services",
         "href": "index.html#services"
       },
       "let_s_build_your_next_move": {
@@ -409,7 +413,7 @@ window.SITE_CONFIG = {
     },
     "stages": {
       "from_first_idea_to_next_chapter": {
-        "html": "FROM FIRST IDEA TO NEXT CHAPTER"
+        "html": "FROM FIRST BRIEF TO CAMPAIGN REVIEW"
       }
     },
     "approach": {
@@ -452,10 +456,10 @@ window.SITE_CONFIG = {
         "html": "CLEAR FROM THE START"
       },
       "better_work_built_together": {
-        "html": "Better work.<br>Built together."
+        "html": "Clear goals.<br>Connected campaigns."
       },
       "understand_how_the_project_takes_shape_where_your_input_ma": {
-        "html": "Understand how the project takes shape, where your input matters and what to expect from the partnership."
+        "html": "See how your Google Ads, Meta Ads or content project is planned, approved and reviewed."
       },
       "something_else_in_mind": {
         "html": "Something else in mind?"
@@ -478,7 +482,7 @@ window.SITE_CONFIG = {
     },
     "start": {
       "a_focused_brief_a_tailored_proposal_a_clear_next_step": {
-        "html": "A focused brief. A tailored proposal. A clear next step."
+        "html": "Your goals. The right platforms. A clear campaign scope."
       },
       "discuss_your_project": {
         "html": "Discuss your project<span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
@@ -500,22 +504,23 @@ window.SITE_CONFIG = {
     "home": {
       "main": {
         "independent_marketing_agency": {
-          "html": "INDEPENDENT MARKETING AGENCY"
+          "html": "GOOGLE ADS & META ADS AGENCY"
         },
         "strategy_meets_expression": {
-          "html": "STRATEGY MEETS EXPRESSION"
+          "html": "CAMPAIGNS · MEASUREMENT · CREATIVE"
         },
         "good_ideas_deserve_a_bigger_audience": {
-          "html": "Good ideas deserve<br>a bigger audience."
+          "html": "Google Ads. Meta Ads.<br>One focused plan."
         },
         "search_our_expertise": {
           "html": "Search our expertise"
         },
         "ideas_in_motion": {
-          "html": "IDEAS IN MOTION"
+          "html": "CAMPAIGN CREATIVE"
         },
         "make_some_real_impact_make_some_real_impact": {
-          "html": "<span class=\"hero-marquee-track\"><span>Make a real impact. ✳ </span><span aria-hidden=\"true\">Make a real impact. ✳ </span></span>"
+          "html": "<span class=\"hero-marquee-track\"><span>Google Ads. Meta Ads. ✳ </span><span aria-hidden=\"true\">Google Ads. Meta Ads. ✳ </span></span>",
+          "aria-label": "Google Ads. Meta Ads."
         },
         "about": {
           "html": "About",
@@ -547,7 +552,7 @@ window.SITE_CONFIG = {
           "href": "#about"
         },
         "input": {
-          "placeholder": "Search services, work or contact…"
+          "placeholder": "Google Ads, Meta Ads, content…"
         },
         "abstract_creative_direction": {
           "src": "assets/mini-1.webp",
@@ -620,55 +625,55 @@ window.SITE_CONFIG = {
           "html": "A LITTLE ABOUT US"
         },
         "creative_minds_commercial_instinct": {
-          "html": "Creative minds.<br>Commercial instinct."
+          "html": "Google Ads. Meta Ads.<br>Creative with a purpose."
         },
         "we_connect_bold_thinking_with_purposeful_marketing_from_th": {
-          "html": "We connect bold thinking with purposeful marketing. From the first spark of an idea to a campaign in motion, we help brands find their voice — and their people."
+          "html": "FORMA brings Google Ads and Meta Ads together with measurement and campaign creative. We help businesses reach people searching on Google and connect with audiences on Facebook and Instagram."
         },
         "no_noise_for_the_sake_of_it_just_the_right_story_told_in_t": {
-          "html": "No noise for the sake of it. Just the right story, told in the right places."
+          "html": "From account setup to ongoing optimisation, we connect the offer, the audience and the creative around your goals."
         },
         "strategic_thinking": {
-          "html": "Strategic thinking"
+          "html": "Campaign strategy"
         },
         "creative_direction": {
-          "html": "Creative direction"
+          "html": "Ad creative"
         },
         "illustrative_expertise_profile": {
           "html": "Illustrative expertise profile"
         },
         "a_connected_approach_from_first_idea_to_next_chapter": {
-          "html": "A connected approach, from first idea to next chapter."
+          "html": "Google Ads, Meta Ads and social content, planned as one connected approach."
         },
         "strategy": {
-          "html": "Strategy"
+          "html": "Google Ads"
         },
         "storytelling": {
-          "html": "Storytelling"
+          "html": "Meta Ads"
         },
         "creative": {
-          "html": "Creative"
+          "html": "Ad creative"
         },
         "performance": {
-          "html": "Performance"
+          "html": "Measurement"
         },
         "community": {
-          "html": "Community"
+          "html": "Social content"
         },
         "strategy_2": {
-          "html": "Strategy"
+          "html": "Google Ads"
         },
         "storytelling_2": {
-          "html": "Storytelling"
+          "html": "Meta Ads"
         },
         "creative_2": {
-          "html": "Creative"
+          "html": "Ad creative"
         },
         "performance_2": {
-          "html": "Performance"
+          "html": "Measurement"
         },
         "community_2": {
-          "html": "Community"
+          "html": "Social content"
         },
         "creative_perspective_in_the_studio": {
           "src": "assets/about.webp",
@@ -706,18 +711,18 @@ window.SITE_CONFIG = {
           "html": "OUR EXPERTISE"
         },
         "strategy_in_action": {
-          "html": "Strategy in action."
+          "html": "Google. Meta. Content."
         },
         "three_disciplines_one_connected_approach_built_around_what": {
-          "html": "Three disciplines. One connected approach.<br>Built around what your brand needs next."
+          "html": "Google Ads and Meta Ads at the core.<br>Social content and creative to support the campaigns."
         }
       },
       "project_call_parallax_call": {
         "have_a_project_we_re_ready": {
-          "html": "Have a project?<br>We’re ready."
+          "html": "Planning a campaign?<br>Let’s talk."
         },
         "a_launch_a_new_audience_a_bold_next_chapter_let_s_find_the": {
-          "html": "A launch, a new audience, a bold next chapter.<br>Let’s find the right direction together."
+          "html": "Google Search, YouTube, Facebook or Instagram.<br>We’ll help shape a plan around your audience and goals."
         },
         "start_a_conversation": {
           "html": "Start a conversation <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
@@ -730,46 +735,46 @@ window.SITE_CONFIG = {
       },
       "why": {
         "why_we_work": {
-          "html": "WHY WE WORK"
+          "html": "WHY THIS APPROACH"
         },
         "creative_thinking_connected_strategy": {
-          "html": "Creative thinking.<br>Connected strategy."
+          "html": "Campaign strategy.<br>Connected platforms."
         },
         "results_with_purpose": {
-          "html": "Results with purpose"
+          "html": "Goals before channels"
         },
         "a_clear_strategy_built_around_your_business_goals": {
-          "html": "A clear strategy built around your business goals."
+          "html": "Agree the leads, sales or other actions your campaigns should support."
         },
         "made_around_you": {
-          "html": "Made around you"
+          "html": "The right platform mix"
         },
         "your_audience_your_voice_your_ambitions": {
-          "html": "Your audience, your voice, your ambitions."
+          "html": "Choose Google Ads, Meta Ads or both around your audience and offer."
         },
         "connected_expertise": {
-          "html": "Connected expertise"
+          "html": "Creative and media together"
         },
         "creative_content_and_media_working_as_one": {
-          "html": "Creative, content and media working as one."
+          "html": "Ad copy, images and video developed around campaign requirements."
         },
         "open_communication": {
-          "html": "Open communication"
+          "html": "Transparent reporting"
         },
         "a_clear_view_of_the_work_and_what_comes_next": {
-          "html": "A clear view of the work and what comes next."
+          "html": "See campaign spend, available conversion data and the next decisions."
         },
         "space_to_grow": {
-          "html": "Space to grow"
+          "html": "Room to test"
         },
         "a_flexible_scope_that_evolves_with_your_priorities": {
-          "html": "A flexible scope that evolves with your priorities."
+          "html": "Refine keywords, audiences and creative as evidence develops."
         },
         "a_shared_ambition": {
-          "html": "A shared ambition"
+          "html": "Your accounts, clear access"
         },
         "a_thoughtful_partnership_from_brief_to_launch": {
-          "html": "A thoughtful partnership, from brief to launch."
+          "html": "Work in your Google and Meta accounts with agreed permissions."
         },
         "img_2": {
           "src": "assets/distinctive.png",
@@ -834,13 +839,13 @@ window.SITE_CONFIG = {
       },
       "work": {
         "selected_concepts": {
-          "html": "SELECTED CONCEPTS"
+          "html": "ILLUSTRATIVE CAMPAIGN CONCEPTS"
         },
         "big_ideas_real_world_energy": {
-          "html": "Big ideas.<br>Real-world energy."
+          "html": "Creative built<br>for the campaign."
         },
         "from_a_distinctive_brand_story_to_a_campaign_that_starts_a": {
-          "html": "From a distinctive brand story to a campaign that starts a conversation. Explore a few creative directions we can build together."
+          "html": "Explore example directions for Google Ads, Meta Ads and the social content that supports them. These concepts illustrate an approach, rather than verified campaign results."
         },
         "illustrative_portfolio_concepts": {
           "html": "Illustrative portfolio concepts."
@@ -850,30 +855,30 @@ window.SITE_CONFIG = {
           "href": "#gallery"
         },
         "the_everyday_edit": {
-          "html": "The everyday edit."
+          "html": "The content collection."
         },
         "a_clear_visual_story_for_a_modern_lifestyle_brand": {
-          "html": "A clear visual story for a modern lifestyle brand."
+          "html": "Social posts and campaign assets for a lifestyle brand."
         },
         "explore_the_approach": {
           "html": "Explore the approach",
           "href": "brand-content.html"
         },
         "in_good_company": {
-          "html": "In good company."
+          "html": "The Meta campaign."
         },
         "a_community_first_direction_for_an_ambitious_business": {
-          "html": "A community-first direction for an ambitious business."
+          "html": "Facebook and Instagram creative built around a focused offer."
         },
         "explore_the_approach_2": {
           "html": "Explore the approach",
           "href": "social-media.html"
         },
         "a_fresh_perspective": {
-          "html": "A fresh perspective."
+          "html": "The Google campaign."
         },
         "a_considered_launch_built_around_audience_intent": {
-          "html": "A considered launch, built around audience intent."
+          "html": "Search-led messaging with supporting Display and YouTube creative."
         },
         "explore_the_approach_3": {
           "html": "Explore the approach",
@@ -884,23 +889,23 @@ window.SITE_CONFIG = {
         },
         "the_everyday_edit_2": {
           "src": "assets/work-skin.webp",
-          "alt": "The everyday edit."
+          "alt": "The content collection."
         },
         "in_good_company_2": {
           "src": "assets/work-fashion.webp",
-          "alt": "In good company."
+          "alt": "The Meta campaign."
         },
         "a_fresh_perspective_2": {
           "src": "assets/work-design.webp",
-          "alt": "A fresh perspective."
+          "alt": "The Google campaign."
         }
       },
       "process": {
         "the_steps_we_follow": {
-          "html": "The steps<br>we follow."
+          "html": "From brief<br>to better decisions."
         },
         "a_clear_rhythm_that_keeps_strategy_creativity_and_delivery": {
-          "html": "A clear rhythm that keeps strategy, creativity and delivery moving in the same direction."
+          "html": "A practical process for Google Ads, Meta Ads and the creative that supports them."
         },
         "find_your_next_move": {
           "html": "Find your next move <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
@@ -913,40 +918,40 @@ window.SITE_CONFIG = {
           "html": "Discovery phase"
         },
         "a_focused_stage_with_a_clear_outcome_and_space_for_your_fe": {
-          "html": "We explore your business, audience and current channels, then agree a brief with clear priorities."
+          "html": "We review your offer, Google and Meta accounts, audience and measurement before agreeing the campaign brief."
         },
         "1_brand_conversation": {
-          "html": "<span class=\"process-number\">1.</span>Brand conversation"
+          "html": "<span class=\"process-number\">1.</span>Business goals"
         },
         "2_audience_insight": {
-          "html": "<span class=\"process-number\">2.</span>Audience insight"
+          "html": "<span class=\"process-number\">2.</span>Keywords & audiences"
         },
         "3_channel_review": {
-          "html": "<span class=\"process-number\">3.</span>Channel review"
+          "html": "<span class=\"process-number\">3.</span>Account & tracking review"
         },
         "4_a_shared_brief": {
-          "html": "<span class=\"process-number\">4.</span>A shared brief"
+          "html": "<span class=\"process-number\">4.</span>Platform & budget plan"
         },
         "step_02": {
           "html": "Step 02"
         },
         "creative_phase": {
-          "html": "Creative phase"
+          "html": "Build & create"
         },
         "a_focused_stage_with_a_clear_outcome_and_space_for_your_fe_2": {
-          "html": "We develop the concept, messaging and content, with agreed review points before production and launch."
+          "html": "We build the agreed campaigns, prepare ad copy and creative, and review conversion measurement before launch."
         },
         "5_creative_concept": {
-          "html": "<span class=\"process-number\">5.</span>Creative concept"
+          "html": "<span class=\"process-number\">5.</span>Campaign structure"
         },
         "6_messaging_identity": {
-          "html": "<span class=\"process-number\">6.</span>Messaging & identity"
+          "html": "<span class=\"process-number\">6.</span>Ad copy & creative"
         },
         "7_content_production": {
-          "html": "<span class=\"process-number\">7.</span>Content production"
+          "html": "<span class=\"process-number\">7.</span>Conversion measurement"
         },
         "8_campaign_planning": {
-          "html": "<span class=\"process-number\">8.</span>Campaign planning"
+          "html": "<span class=\"process-number\">8.</span>Review & approval"
         },
         "step_03": {
           "html": "Step 03"
@@ -958,16 +963,16 @@ window.SITE_CONFIG = {
           "html": "Evolve"
         },
         "a_focused_stage_with_a_clear_outcome_and_space_for_your_fe_3": {
-          "html": "We launch the approved work, review performance and use the findings to guide the next round of improvements."
+          "html": "We monitor Google Ads and Meta Ads performance, review the available evidence and agree the next tests."
         },
         "9_launch_learn": {
           "html": "<span class=\"process-number\">9.</span>Launch & learn"
         },
         "10_performance_review": {
-          "html": "<span class=\"process-number\">10.</span>Performance review"
+          "html": "<span class=\"process-number\">10.</span>Spend & conversion review"
         },
         "11_creative_refinement": {
-          "html": "<span class=\"process-number\">11.</span>Creative refinement"
+          "html": "<span class=\"process-number\">11.</span>Creative & campaign tests"
         },
         "12_next_step_roadmap": {
           "html": "<span class=\"process-number\">12.</span>Next-step roadmap"
@@ -990,10 +995,10 @@ window.SITE_CONFIG = {
           "html": "DIFFERENT MINDS. SHARED MOMENTUM."
         },
         "the_people_perspective": {
-          "html": "The expertise behind the work."
+          "html": "The skills behind your campaigns."
         },
         "your_project_brings_together_these_disciplines_from_shared": {
-          "html": "Your project brings together these disciplines.<br>From shared strategy to creative delivery."
+          "html": "Google Ads, Meta Ads, measurement and content.<br>The right expertise around one campaign brief."
         }
       },
       "reviews": {
@@ -1104,16 +1109,16 @@ window.SITE_CONFIG = {
       },
       "pricing": {
         "a_plan_for_your_next_chapter": {
-          "html": "A PLAN FOR YOUR NEXT CHAPTER"
+          "html": "PLANS FOR GOOGLE ADS & META ADS"
         },
         "ambition_meet_action": {
-          "html": "Ambition, meet action."
+          "html": "A scope for your campaigns."
         },
         "monthly": {
           "html": "Monthly"
         },
         "illustrative_starting_prices_media_spend_excluded": {
-          "html": "Illustrative monthly fees. Annual billing includes a 15% discount. Media spend is separate; deliverables and any additional production costs are agreed in your proposal."
+          "html": "Illustrative management fees in USD. Annual billing includes a 15% discount. Google and Meta media spend is separate. Campaign limits, setup work and any additional production costs are agreed in your proposal."
         },
         "every_plan_includes": {
           "html": "Every plan includes"
@@ -1122,13 +1127,13 @@ window.SITE_CONFIG = {
           "html": "Clear communication"
         },
         "creative_thinking": {
-          "html": "Creative thinking"
+          "html": "Creative testing"
         },
         "a_tailored_approach": {
           "html": "A tailored approach"
         },
         "shared_direction": {
-          "html": "Shared direction"
+          "html": "Agreed campaign goals"
         },
         "regular_reviews": {
           "html": "Regular reviews"
@@ -1137,13 +1142,13 @@ window.SITE_CONFIG = {
           "html": "Clear communication"
         },
         "creative_thinking_2": {
-          "html": "Creative thinking"
+          "html": "Creative testing"
         },
         "a_tailored_approach_2": {
           "html": "A tailored approach"
         },
         "shared_direction_2": {
-          "html": "Shared direction"
+          "html": "Agreed campaign goals"
         },
         "regular_reviews_2": {
           "html": "Regular reviews"
@@ -1151,10 +1156,10 @@ window.SITE_CONFIG = {
       },
       "gallery": {
         "see_the_creative_picture": {
-          "html": "See the<br>creative picture."
+          "html": "See the<br>campaign picture."
         },
         "let_s_find_your_direction": {
-          "html": "Let’s find your direction",
+          "html": "Let’s plan your campaign",
           "href": "#contact"
         },
         "brand_direction_on_a_studio_screen": {
@@ -1176,25 +1181,25 @@ window.SITE_CONFIG = {
       },
       "journey": {
         "a_brand_s_next_chapter": {
-          "html": "A BRAND’S NEXT CHAPTER"
+          "html": "YOUR CAMPAIGN, STEP BY STEP"
         },
         "from_spark_to_momentum": {
-          "html": "From spark to momentum."
+          "html": "From goal to campaign."
         },
         "a_clear_start_discover_find_the_questions_worth_asking": {
-          "html": "<small>A CLEAR START</small><strong>Discover</strong><span>Find the questions worth asking.</span>"
+          "html": "<small>A CLEAR START</small><strong>Discover</strong><span>Review your offer and accounts.</span>"
         },
         "a_shared_direction_define_give_your_brand_a_focused_positi": {
-          "html": "<small>A SHARED DIRECTION</small><strong>Define</strong><span>Give your brand a focused position.</span>"
+          "html": "<small>A SHARED DIRECTION</small><strong>Define</strong><span>Choose goals, platforms and budgets.</span>"
         },
         "a_distinctive_voice_create_turn_the_strategy_into_expressi": {
-          "html": "<small>A DISTINCTIVE VOICE</small><strong>Create</strong><span>Turn the strategy into expression.</span>"
+          "html": "<small>CAMPAIGN CREATIVE</small><strong>Create</strong><span>Build the message and ad assets.</span>"
         },
         "a_confident_move_launch_meet_your_audience_in_the_right_pl": {
-          "html": "<small>A CONFIDENT MOVE</small><strong>Launch</strong><span>Meet your audience in the right places.</span>"
+          "html": "<small>READY TO LAUNCH</small><strong>Launch</strong><span>Activate the approved campaigns.</span>"
         },
         "the_next_chapter_evolve_learn_refine_and_keep_moving": {
-          "html": "<small>THE NEXT CHAPTER</small><strong>Evolve</strong><span>Learn, refine and keep moving.</span>"
+          "html": "<small>THE NEXT TEST</small><strong>Evolve</strong><span>Review performance and refine.</span>"
         },
         "launch": {
           "html": "Launch"
@@ -1228,10 +1233,10 @@ window.SITE_CONFIG = {
           "html": "A CLOSER LOOK"
         },
         "expertise_opened_up": {
-          "html": "Expertise, opened up."
+          "html": "Your platforms. Our focus."
         },
         "explore_the_detail_behind_your_next_move": {
-          "html": "Explore the detail behind your next move."
+          "html": "Explore Google Ads, Meta Ads and the content behind your campaigns."
         },
         "view_expertise": {
           "html": "View expertise <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
@@ -1251,7 +1256,7 @@ window.SITE_CONFIG = {
         },
         "social_media_collaboration": {
           "src": "assets/expertise-1.webp",
-          "alt": "Social Media collaboration"
+          "alt": "Meta Ads collaboration"
         },
         "img_2": {
           "src": "assets/icon-2.png",
@@ -1259,7 +1264,7 @@ window.SITE_CONFIG = {
         },
         "paid_advertising_collaboration": {
           "src": "assets/expertise-2.webp",
-          "alt": "Paid Advertising collaboration"
+          "alt": "Google Ads collaboration"
         },
         "img_3": {
           "src": "assets/icon-3.png",
@@ -1267,7 +1272,7 @@ window.SITE_CONFIG = {
         },
         "brand_content_collaboration": {
           "src": "assets/expertise-3.webp",
-          "alt": "Brand & Content collaboration"
+          "alt": "Social media and content collaboration"
         }
       },
       "values": {
@@ -1275,26 +1280,26 @@ window.SITE_CONFIG = {
           "html": "WHAT DRIVES THE WORK"
         },
         "more_than_a_good_looking_idea": {
-          "html": "More than<br>a good-looking idea."
+          "html": "More than<br>a well-placed ad."
         },
         "we_believe_the_best_marketing_brings_together_a_clear_purp": {
-          "html": "We believe the best marketing brings together a clear purpose, an original point of view and a genuine understanding of people."
+          "html": "Useful advertising connects a relevant offer with the right audience and clear measurement. We bring Google Ads, Meta Ads and campaign creative into that process."
         },
         "that_s_why_we_work_closely_with_you_connecting_the_ambitio": {
-          "html": "That’s why we work closely with you — connecting the ambition behind your brand with the details that bring it to life."
+          "html": "We work with you on the details that influence performance: the message, the landing page, the budget and the conversion goals."
         },
         "find_your_direction": {
           "html": "Find your direction <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
           "href": "#contact"
         },
         "to_make_your_brand_s_next_move_clearer_more_distinctive_an": {
-          "html": "To make your brand’s next move clearer, more distinctive and more connected."
+          "html": "To make your Google Ads and Meta Ads decisions clearer, with purposeful creative and transparent reporting."
         },
         "our_perspective": {
           "html": "Our perspective"
         },
         "good_strategy_starts_with_curiosity_great_creative_gives_i": {
-          "html": "Good strategy starts with curiosity. Great creative gives it a voice."
+          "html": "Search intent and social discovery work differently. We plan for both, with a consistent offer and relevant creative."
         },
         "our_partnership": {
           "html": "Our partnership"
@@ -1309,28 +1314,28 @@ window.SITE_CONFIG = {
       },
       "metrics": {
         "core_disciplines": {
-          "html": "CORE DISCIPLINES"
+          "html": "CORE SERVICES"
         },
         "connected_approach": {
-          "html": "CONNECTED APPROACH"
+          "html": "CONNECTED CAMPAIGN PLAN"
         },
         "creative_perspectives": {
-          "html": "CREATIVE PERSPECTIVES"
+          "html": "CAMPAIGN DISCIPLINES"
         },
         "possibilities": {
           "html": "POSSIBILITIES"
         },
         "good_work_starts_with_a_clear_direction": {
-          "html": "Good work starts<br>with a clear direction."
+          "html": "Better campaigns start<br>with clear goals."
         },
         "space_to_explore": {
-          "html": "SPACE TO EXPLORE"
+          "html": "GOALS & CREATIVE"
         },
         "structure_to_deliver": {
-          "html": "STRUCTURE TO DELIVER"
+          "html": "GOOGLE & META"
         },
         "room_to_evolve": {
-          "html": "ROOM TO EVOLVE"
+          "html": "DATA & NEXT STEPS"
         },
         "a_contemporary_creative_workplace": {
           "src": "assets/metrics.webp",
@@ -1342,13 +1347,13 @@ window.SITE_CONFIG = {
           "html": "THOUGHTFUL BY DESIGN"
         },
         "big_ambition_a_personal_approach": {
-          "html": "Big ambition.<br>A personal approach."
+          "html": "Your goals.<br>The right campaign mix."
         },
         "every_project_brings_a_different_set_of_possibilities_we_m": {
-          "html": "Every project brings a different set of possibilities. We match the right creative thinking to your audience, your priorities and your pace."
+          "html": "A Google Search campaign, a Facebook and Instagram launch or a connected advertising programme: the right scope depends on your offer, audience and budget."
         },
         "start_with_a_focused_project_or_bring_us_into_the_bigger_p": {
-          "html": "Start with a focused project or bring us into the bigger picture. We’ll shape the scope together."
+          "html": "Start with an account review, campaign setup or ongoing management. Add social content and ad creative where your campaigns need them."
         },
         "explore_a_partnership": {
           "html": "Explore a partnership <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
@@ -1358,13 +1363,13 @@ window.SITE_CONFIG = {
           "html": "Clear priorities."
         },
         "strategy_that_helps_you_focus_on_what_matters_next": {
-          "html": "Strategy that helps you focus on what matters next."
+          "html": "A Google Ads and Meta Ads plan focused on your business priorities."
         },
         "shared_direction": {
           "html": "Shared direction."
         },
         "a_working_relationship_built_around_open_conversation": {
-          "html": "A working relationship built around open conversation."
+          "html": "A shared view of your budgets, creative approvals and next campaign decisions."
         },
         "a_creative_project_discussion": {
           "src": "assets/feature-2.webp",
@@ -1386,31 +1391,31 @@ window.SITE_CONFIG = {
           "html": "Connected specialists"
         },
         "strategy_content_design_and_media_come_together_around_one": {
-          "html": "Strategy, content, design and media come together around one shared brief. You get the right perspectives at each stage, with clear ownership and a consistent creative direction from first idea to final delivery."
+          "html": "Google Ads, Meta Ads, measurement and content work from one agreed brief. Campaign managers and creative specialists share the offer, audience and conversion goals, with clear responsibilities for accounts, assets and reporting."
         },
         "clear_communication": {
           "html": "Clear communication"
         },
         "stay_close_to_the_work_without_chasing_updates_we_agree_on": {
-          "html": "Stay close to the work without chasing updates. We agree on milestones, share creative decisions and make feedback easy to act on. You always know what is ready, what needs your input and what comes next."
+          "html": "We agree how often you receive Google Ads and Meta Ads updates, where approvals happen and which decisions need your input. Reports connect spend, available conversion data and creative findings with practical next steps."
         },
         "thoughtful_scope": {
           "html": "Thoughtful scope"
         },
         "your_priorities_shape_the_proposal_we_define_the_deliverab": {
-          "html": "Your priorities shape the proposal. We define the deliverables, responsibilities and review points before work begins, so the scope is clear. A focused project or an ongoing partnership can both start with a practical plan."
+          "html": "Your proposal defines the advertising platforms, campaign types, account access, creative deliverables and review schedule. Management fees, setup work, content production and media spend are listed separately so you can plan the budget."
         },
         "room_to_evolve": {
           "html": "Room to evolve"
         },
         "your_brand_will_keep_moving_and_the_approach_can_move_with": {
-          "html": "Your brand will keep moving, and the approach can move with it. We review the work, listen to new priorities and suggest thoughtful next steps. Any change to scope is discussed together before we move ahead."
+          "html": "We review keywords, audiences, budgets and creative as your campaigns develop. New platforms, extra production or changes to tracking are discussed and scoped before work begins."
         },
         "good_marketing_starts_with_understanding_people": {
-          "html": "Good marketing starts with understanding people."
+          "html": "Better campaigns start with understanding the customer."
         },
         "we_listen_carefully_challenge_thoughtfully_and_make_the_cr": {
-          "html": "We listen carefully, challenge thoughtfully and make the creative process something you’re part of."
+          "html": "We connect what people search for on Google with the messages and creative they encounter on Facebook and Instagram."
         },
         "let_s_start_with_a_conversation": {
           "html": "Let’s start with a conversation",
@@ -1431,13 +1436,13 @@ window.SITE_CONFIG = {
       },
       "proposal": {
         "your_next_chapter": {
-          "html": "YOUR NEXT CHAPTER"
+          "html": "YOUR NEXT CAMPAIGN"
         },
         "let_s_start_something_good": {
-          "html": "Let’s start something good."
+          "html": "Let’s build your campaign plan."
         },
         "tell_us_what_you_have_in_mind_we_ll_help_you_see_what_s_po": {
-          "html": "Tell us what you have in mind.<br>We’ll help you see what’s possible."
+          "html": "Tell us your goals for Google Ads or Meta Ads.<br>We’ll define the campaign and content scope."
         },
         "build_a_tailored_proposal": {
           "html": "Request a tailored proposal <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
@@ -1453,22 +1458,22 @@ window.SITE_CONFIG = {
           "html": "A considered approach"
         },
         "strategy": {
-          "html": "Strategy"
+          "html": "Google Ads"
         },
         "a_focused_direction": {
-          "html": "A focused direction"
+          "html": "Reach relevant search intent"
         },
         "creative": {
-          "html": "Creative"
+          "html": "Meta Ads"
         },
         "a_distinctive_expression": {
-          "html": "A distinctive expression"
+          "html": "Connect on Facebook & Instagram"
         },
         "media": {
-          "html": "Media"
+          "html": "Content"
         },
         "a_meaningful_connection": {
-          "html": "A meaningful connection"
+          "html": "Support every campaign message"
         }
       },
       "faq": {
@@ -1482,31 +1487,31 @@ window.SITE_CONFIG = {
           "html": "Where do we start?<span>+</span>"
         },
         "tell_us_a_little_about_your_brand_your_goals_and_your_time": {
-          "html": "Tell us a little about your brand, your goals and your timeline. We’ll review your enquiry and suggest a focused conversation to explore the right approach."
+          "html": "Share your website, offer, target market and budget. Tell us whether you need Google Ads, Meta Ads or content support. We’ll review the enquiry and discuss account access and the right starting scope."
         },
         "can_we_work_on_just_one_service": {
           "html": "Can we work on just one service?<span>+</span>"
         },
         "absolutely_we_can_support_one_channel_a_single_campaign_or": {
-          "html": "Absolutely. We can support one channel, a single campaign or an integrated programme. The scope is shaped around your priorities."
+          "html": "Yes. Start with Google Ads, Meta Ads or Social Media & Content. We can also plan Google and Meta campaigns together. Platforms, campaign types and deliverables are agreed in your proposal."
         },
         "is_advertising_spend_included": {
           "html": "Is advertising spend included?<span>+</span>"
         },
         "no_platform_advertising_spend_is_separate_from_our_managem": {
-          "html": "No. Platform advertising spend is separate from our management and creative fees. We agree the scope and budget before any work begins."
+          "html": "No. Google and Meta media spend is paid separately from our management and creative fees. Setup work, production and any additional tools are scoped before work begins."
         },
         "how_do_you_measure_success": {
           "html": "How do you measure success?<span>+</span>"
         },
         "we_agree_relevant_goals_at_the_start_establish_a_baseline_": {
-          "html": "We agree relevant goals at the start, establish a baseline and report against meaningful indicators. Performance depends on your market, offer and budget; specific outcomes are not guaranteed."
+          "html": "We agree relevant conversions, such as qualified enquiries or purchases, and review spend and available performance data. Google Analytics 4 and platform reporting provide context; attribution can differ between tools. Specific results are not guaranteed."
         },
         "do_you_work_with_international_brands": {
-          "html": "Do you work with international brands?<span>+</span>"
+          "html": "Do you support tracking setup?<span>+</span>"
         },
         "yes_a_remote_first_approach_makes_collaboration_possible_a": {
-          "html": "Yes. A remote-first approach makes collaboration possible across locations. We agree time zones, communication and delivery milestones together."
+          "html": "We can review Google Analytics 4, Google Tag Manager, Google Ads conversion tracking and Meta Pixel requirements. Conversions API and other implementation work are scoped around your website, technical resources and applicable consent requirements."
         },
         "img": {
           "src": "assets/sculpture.webp",
@@ -1518,18 +1523,18 @@ window.SITE_CONFIG = {
           "html": "OPEN TO WHAT’S NEXT"
         },
         "good_things_start_with_a_connection": {
-          "html": "Good things start<br>with a connection."
+          "html": "Let’s connect<br>your campaigns."
         },
         "start_a_project": {
-          "html": "Start a project <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
+          "html": "Discuss Google Ads <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
           "href": "#contact"
         },
         "collaborate": {
-          "html": "Collaborate <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
+          "html": "Discuss Meta Ads <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
           "href": "#contact"
         },
         "advertise": {
-          "html": "Plan a paid campaign <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
+          "html": "Plan content & creative <span class=\"vector-arrow\" aria-hidden=\"true\"></span>",
           "href": "#contact"
         },
         "where_we_work": {
@@ -1542,7 +1547,7 @@ window.SITE_CONFIG = {
           "html": "Our approach"
         },
         "independent_thinking_connected_collaboration": {
-          "html": "Independent thinking.<br>Connected collaboration."
+          "html": "Google Ads. Meta Ads.<br>One connected approach."
         },
         "contemporary_architecture": {
           "src": "assets/building.webp",
@@ -1551,7 +1556,7 @@ window.SITE_CONFIG = {
       },
       "contact": {
         "let_s_make_it_happen": {
-          "html": "LET’S MAKE IT HAPPEN"
+          "html": "GOOGLE ADS · META ADS · CONTENT"
         },
         "optional": {
           "html": "(optional)"
@@ -1619,7 +1624,7 @@ window.SITE_CONFIG = {
           "html": "Using this website"
         },
         "this_website_introduces_our_marketing_services_use_it_lawf": {
-          "html": "This website introduces our marketing services. Use it lawfully and do not attempt to compromise its availability, submit abusive content or misuse its enquiry form."
+          "html": "This website introduces FORMA’s Google Ads, Meta Ads and social content services. Use it lawfully and do not attempt to compromise its availability, submit abusive content or misuse its enquiry form."
         }
       },
       "policy-1": {
@@ -1765,22 +1770,22 @@ window.SITE_CONFIG = {
       },
       "stages": {
         "attention_with_intention": {
-          "html": "Attention with intention."
+          "html": "Google Ads, from intent to insight."
         },
         "your_next_chapter_audit_understand_the_starting_point": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Audit</strong><span>Understand the starting point.</span>"
+          "html": "<small>GOOGLE ADS</small><strong>Audit</strong><span>Review your account and tracking.</span>"
         },
         "your_next_chapter_plan_define_audiences_and_priorities": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Plan</strong><span>Define audiences and priorities.</span>"
+          "html": "<small>GOOGLE ADS</small><strong>Plan</strong><span>Match keywords and goals.</span>"
         },
         "your_next_chapter_build_create_a_focused_campaign": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Build</strong><span>Create a focused campaign.</span>"
+          "html": "<small>GOOGLE ADS</small><strong>Build</strong><span>Prepare campaigns and ad assets.</span>"
         },
         "your_next_chapter_test_learn_from_real_response": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Test</strong><span>Learn from audience response.</span>"
+          "html": "<small>GOOGLE ADS</small><strong>Test</strong><span>Learn from clicks and conversions.</span>"
         },
         "your_next_chapter_improve_refine_the_next_decision": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Improve</strong><span>Refine the next decision.</span>"
+          "html": "<small>GOOGLE ADS</small><strong>Improve</strong><span>Refine spend, bids and creative.</span>"
         },
         "audit": {
           "html": "Audit"
@@ -1799,81 +1804,81 @@ window.SITE_CONFIG = {
         },
         "paid_advertising_audit": {
           "src": "assets/paid-stage-1.avif",
-          "alt": "Paid Advertising: Audit"
+          "alt": "Google Ads: Audit"
         },
         "paid_advertising_plan": {
           "src": "assets/paid-stage-2.avif",
-          "alt": "Paid Advertising: Plan"
+          "alt": "Google Ads: Plan"
         },
         "paid_advertising_build": {
           "src": "assets/paid-stage-3.avif",
-          "alt": "Paid Advertising: Build"
+          "alt": "Google Ads: Build"
         },
         "paid_advertising_test": {
           "src": "assets/paid-stage-4.avif",
-          "alt": "Paid Advertising: Test"
+          "alt": "Google Ads: Test"
         },
         "paid_advertising_improve": {
           "src": "assets/paid-stage-5.avif",
-          "alt": "Paid Advertising: Improve"
+          "alt": "Google Ads: Improve"
         }
       },
       "approach": {
         "better_questions_sharper_campaigns": {
-          "html": "Better questions. Sharper campaigns."
+          "html": "Google intent. Clear campaign goals."
         },
         "bring_media_planning_creative_testing_and_measurement_into": {
-          "html": "Bring media planning, creative testing and measurement into one accountable process."
+          "html": "Search, Display, YouTube and Performance Max are considered around your offer, available assets and budget."
         },
         "bring_media_planning_creative_testing_and_measurement_into_2": {
-          "html": "Build campaigns around clear objectives, relevant audiences and measurement that supports informed decisions."
+          "html": "Connect Google Ads with clear conversion goals and a measurement plan using Google Analytics 4 where appropriate."
         },
         "connect_the_right_offer_with_the_right_audience_at_a_momen": {
-          "html": "Connect the right offer with the right audience at a moment that matters."
+          "html": "Reach people searching for your offer and support their next step with relevant ads and landing pages."
         }
       },
       "planning": {
         "campaign_foundation": {
-          "html": "Campaign foundation"
+          "html": "Google Ads setup"
         },
         "account_review_audience_planning_and_a_measurement_roadmap": {
-          "html": "A one-off setup project covering account review, audience planning and a measurement roadmap."
+          "html": "A one-off Google Ads account review, keyword and campaign plan, and conversion measurement roadmap. Implementation is agreed in your proposal."
         },
         "campaign_management": {
-          "html": "Campaign management"
+          "html": "Google Ads management"
         },
         "ongoing_optimisation_creative_testing_and_transparent_repo": {
-          "html": "Monthly campaign management, including optimisation, creative testing and reporting. Media spend is separate; creative production is scoped in your proposal."
+          "html": "Monthly Google Ads management, including campaign optimisation, ad testing and reporting. Google media spend and new creative production are separate."
         },
         "which_advertising_platforms_fit_us": {
-          "html": "Which advertising platforms fit us?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Which Google Ads campaigns do you manage?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_select_platforms_around_customer_intent_your_offer_and_": {
-          "html": "We select platforms around customer intent, your offer and the resources available for testing."
+          "html": "Search, Display, YouTube and Performance Max can be included. We recommend campaign types around your goals, available assets, website and testing budget."
         },
         "is_media_spend_included": {
           "html": "Is media spend included?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "no_advertising_spend_is_paid_separately_to_the_platforms_a": {
-          "html": "No. Advertising spend is paid separately to the platforms and agreed before campaigns launch."
+          "html": "No. Google Ads media spend is paid separately to Google. Management, setup and creative costs are agreed before launch."
         },
         "do_you_review_our_tracking": {
-          "html": "Do you review our tracking?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Do you help with GA4 and Google Tag Manager?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "yes_measurement_requirements_and_the_condition_of_your_cur": {
-          "html": "Yes. Measurement requirements and the condition of your current setup are reviewed at the start."
+          "html": "Yes. We review Google Analytics 4, Google Tag Manager and Google Ads conversion measurement. Any setup or implementation work is defined in the proposal."
         },
         "will_you_create_the_adverts": {
           "html": "Will you create the adverts?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "copy_and_creative_can_be_included_in_the_proposal_with_agr": {
-          "html": "Copy and creative can be included in the proposal, with agreed formats and review rounds."
+          "html": "Search ad copy and creative for Display, YouTube or Performance Max can be scoped with our content service. Asset formats, production and review rounds are agreed first."
         },
         "can_you_work_with_a_small_budget": {
           "html": "Can you work with a small budget?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_can_propose_a_focused_test_whether_it_is_viable_depends": {
-          "html": "We can propose a focused test. Whether it is viable depends on your market and objectives."
+          "html": "We can assess a focused Google Ads test based on search demand, likely click costs, your offer and conversion goals. We agree a viable test budget before launch."
         },
         "do_you_guarantee_conversions": {
           "html": "Do you guarantee conversions?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -1883,11 +1888,11 @@ window.SITE_CONFIG = {
         },
         "paid_advertising_project_detail": {
           "src": "assets/paid-detail-1.avif",
-          "alt": "Paid Advertising project detail"
+          "alt": "Google Ads project detail"
         },
         "paid_advertising_creative_process": {
           "src": "assets/paid-detail-2.avif",
-          "alt": "Paid Advertising creative process"
+          "alt": "Google Ads creative process"
         }
       },
       "working": {
@@ -1907,19 +1912,19 @@ window.SITE_CONFIG = {
           "html": "Can we keep our existing accounts?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "yes_we_work_with_agreed_permissions_in_your_accounts_where": {
-          "html": "Yes. We work with agreed permissions in your accounts wherever practical."
+          "html": "Yes. We work in your Google Ads account using agreed permissions. You retain account ownership and visibility of billing and campaign activity."
         },
         "how_are_tests_prioritised": {
           "html": "How are tests prioritised?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_start_with_the_strongest_questions_about_audience_messa": {
-          "html": "We start with the strongest questions about audience, message and offer, then assess what the data supports."
+          "html": "We prioritise questions about keywords, search terms, ad copy, bidding and landing pages. Other Google campaign types are tested where they support your goals."
         },
         "how_often_do_we_hear_from_you": {
           "html": "How often do we hear from you?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "you_receive_a_clear_reporting_schedule_and_updates_when_a_": {
-          "html": "You receive a clear reporting schedule and updates when a material decision needs your input."
+          "html": "We agree a reporting schedule for Google Ads performance and contact you when budget or campaign decisions need approval."
         }
       },
       "next": {
@@ -1927,7 +1932,7 @@ window.SITE_CONFIG = {
           "html": "How do you report performance?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_report_against_the_agreed_objectives_explain_the_contex": {
-          "html": "We report against the agreed objectives, explain the context and identify practical next steps."
+          "html": "We review Google Ads spend, clicks and agreed conversion measures, with Google Analytics 4 context where available. Reports explain attribution differences and the next recommended actions."
         },
         "when_should_we_increase_spend": {
           "html": "When should we increase spend?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -1939,7 +1944,7 @@ window.SITE_CONFIG = {
           "html": "What if a test underperforms?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_review_the_audience_creative_offer_and_landing_experien": {
-          "html": "We review the audience, creative, offer and landing experience before recommending the next test."
+          "html": "We review search terms or audience signals, ad assets, bids, measurement and landing pages before recommending the next Google Ads test."
         },
         "can_our_team_take_over": {
           "html": "Can our team take over?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -1948,41 +1953,41 @@ window.SITE_CONFIG = {
           "html": "Yes. A structured handover can include campaign documentation, findings and access guidance."
         },
         "a_clear_view_of_your_campaigns": {
-          "html": "A clear view of your campaigns"
+          "html": "A clear view of your Google Ads"
         },
         "transparent_budget_decisions": {
-          "html": "Transparent budget decisions"
+          "html": "Transparent Google Ads budgets"
         },
         "testing_with_a_clear_purpose": {
-          "html": "Testing with a clear purpose"
+          "html": "Testing around agreed conversion goals"
         },
         "paid_advertising_specialist_at_work": {
           "src": "assets/paid-feature.avif",
-          "alt": "Paid Advertising specialist at work"
+          "alt": "Google Ads specialist at work"
         }
       },
       "start": {
         "make_your_next_move_count": {
-          "html": "Make your next move count."
+          "html": "Let’s plan your Google Ads."
         }
       },
       "creative": {
         "creative_meets_evidence": {
-          "html": "Creative meets evidence."
+          "html": "Search intent meets relevant creative."
         },
         "an_effective_campaign_is_more_than_targeting_the_message_f": {
-          "html": "An effective campaign is more than targeting. The message, format and landing experience need to work together, so we consider the whole journey before the first impression."
+          "html": "Google Ads starts with the way people discover and evaluate your offer. We align keywords, ad copy and landing pages for Search, then plan the images and video needed for other agreed campaign types."
         },
         "we_test_with_a_clear_question_in_mind_and_report_what_the_": {
-          "html": "We test with a clear question in mind and report what the evidence can actually tell us. That gives your next decision a stronger foundation, without hiding uncertainty behind a dashboard."
+          "html": "Google Analytics 4, Google Tag Manager and conversion tracking help give campaign decisions context. We scope the measurement work, explain data limitations and use the findings to guide practical tests."
         },
         "paid_advertising_creative_detail": {
           "src": "assets/paid-editorial-1.webp",
-          "alt": "Paid Advertising creative detail"
+          "alt": "Google Ads creative detail"
         },
         "paid_advertising_collaboration": {
           "src": "assets/paid-editorial-2.webp",
-          "alt": "Paid Advertising collaboration"
+          "alt": "Google Ads collaboration"
         }
       }
     },
@@ -2009,22 +2014,22 @@ window.SITE_CONFIG = {
       },
       "stages": {
         "distinctly_unmistakably_you": {
-          "html": "Distinctly, unmistakably you."
+          "html": "Content with a campaign purpose."
         },
         "your_next_chapter_discover_find_what_makes_you_different": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Discover</strong><span>Find what makes you different.</span>"
+          "html": "<small>SOCIAL & CONTENT</small><strong>Discover</strong><span>Review your offer and channels.</span>"
         },
         "your_next_chapter_define_set_a_clear_brand_position": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Define</strong><span>Set a clear brand position.</span>"
+          "html": "<small>SOCIAL & CONTENT</small><strong>Define</strong><span>Agree messages and formats.</span>"
         },
         "your_next_chapter_design_create_your_visual_language": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Design</strong><span>Create your visual language.</span>"
+          "html": "<small>SOCIAL & CONTENT</small><strong>Design</strong><span>Create posts and ad assets.</span>"
         },
         "your_next_chapter_express_bring_the_story_to_life": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Express</strong><span>Bring the story to life.</span>"
+          "html": "<small>SOCIAL & CONTENT</small><strong>Express</strong><span>Publish or hand over approved content.</span>"
         },
         "your_next_chapter_equip_make_consistency_practical": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Equip</strong><span>Make consistency practical.</span>"
+          "html": "<small>SOCIAL & CONTENT</small><strong>Equip</strong><span>Review and plan the next content.</span>"
         },
         "design": {
           "html": "Design"
@@ -2058,48 +2063,48 @@ window.SITE_CONFIG = {
       },
       "approach": {
         "a_clear_identity_a_lasting_impression": {
-          "html": "A clear identity. A lasting impression."
+          "html": "One message across ads and social."
         },
         "connect_positioning_design_and_content_in_a_brand_system_y": {
-          "html": "Connect positioning, design and content in a brand system your team can use with confidence."
+          "html": "Connect Facebook and Instagram content with the creative your Google Ads and Meta Ads campaigns need."
         },
         "connect_positioning_design_and_content_in_a_brand_system_y_2": {
-          "html": "Build a recognisable brand that stays consistent across campaigns, content and everyday communication."
+          "html": "Give your audience a consistent experience from the first ad to the next social post."
         },
         "give_your_business_a_visual_and_verbal_language_that_peopl": {
-          "html": "Give your business a visual and verbal language that people recognise and remember."
+          "html": "Turn your campaign message into useful posts, captions, images and video for the agreed channels."
         }
       },
       "planning": {
         "brand_direction": {
-          "html": "Brand direction"
+          "html": "Content & creative direction"
         },
         "positioning_messaging_priorities_and_a_focused_creative_co": {
-          "html": "A project covering positioning, messaging priorities and a focused creative concept."
+          "html": "A project covering Facebook and Instagram content themes, campaign messages, priority formats and a practical creative brief."
         },
         "identity_content": {
-          "html": "Identity & content"
+          "html": "Content & ad creative production"
         },
         "a_tailored_identity_system_selected_assets_and_practical_g": {
-          "html": "A project covering an identity system, agreed content assets and practical guidelines. Production and third-party licences are scoped separately."
+          "html": "A scoped batch of social posts and Google or Meta ad assets. Volumes, formats and revisions are agreed; publishing, external production and licences are quoted separately."
         },
         "can_you_refresh_an_existing_brand": {
-          "html": "Can you refresh an existing brand?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Can you use our existing brand identity?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "yes_we_can_preserve_the_elements_that_still_work_and_evolv": {
-          "html": "Yes. We can preserve the elements that still work and evolve the parts that need a clearer direction."
+          "html": "Yes. We work with your brand guidelines and existing assets to keep Facebook, Instagram and ad creative consistent. A full rebrand or logo redesign is outside the core content scope."
         },
         "what_is_included_in_an_identity": {
-          "html": "What is included in an identity?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "What content can you create?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "the_proposal_defines_the_logo_work_typography_colour_syste": {
-          "html": "The proposal defines the logo work, typography, colour system and other visual elements your project needs."
+          "html": "Facebook and Instagram posts, captions, short-form video, Meta ad creative and assets for Google Display or YouTube can be scoped. Your proposal defines formats, quantities and production requirements."
         },
         "do_you_help_with_messaging": {
-          "html": "Do you help with messaging?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Do you help with ad copy and captions?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "positioning_tone_of_voice_and_key_messages_can_be_develope": {
-          "html": "Positioning, tone of voice and key messages can be developed alongside the visual direction."
+          "html": "Yes. We can develop campaign messages, social captions and ad copy around your offer, audience and existing tone of voice."
         },
         "will_we_receive_editable_files": {
           "html": "Will we receive editable files?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2111,7 +2116,7 @@ window.SITE_CONFIG = {
           "html": "Can you direct a photo shoot?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "art_direction_and_production_planning_can_be_included_with": {
-          "html": "Art direction and production planning can be included, with photography costs scoped separately."
+          "html": "Creative direction and shot planning can be included for campaign and social content. Photography, filming, talent and other production costs are scoped separately."
         },
         "how_many_concepts_do_we_review": {
           "html": "How many concepts do we review?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2133,7 +2138,7 @@ window.SITE_CONFIG = {
           "html": "Where does the project begin?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_explore_your_business_audience_competitors_and_ambition": {
-          "html": "We explore your business, audience, competitors and ambitions before defining the creative brief."
+          "html": "We review your offer, brand guidelines, Facebook and Instagram presence, and Google Ads or Meta Ads creative needs before agreeing the content brief."
         },
         "how_do_we_give_feedback": {
           "html": "How do we give feedback?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2142,30 +2147,30 @@ window.SITE_CONFIG = {
           "html": "We use agreed review stages and a consolidated feedback process to keep decisions clear."
         },
         "can_our_team_join_workshops": {
-          "html": "Can our team join workshops?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Can you manage Facebook and Instagram posting?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "yes_the_right_internal_perspectives_help_us_build_a_brand_": {
-          "html": "Yes. The right internal perspectives help us build a brand direction grounded in your business."
+          "html": "Yes. A content calendar, publishing and community management can be added to the scope. We agree post volumes, approval dates, response coverage and account permissions first."
         },
         "can_you_support_a_launch": {
           "html": "Can you support a launch?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_can_create_campaign_assets_and_a_rollout_plan_around_th": {
-          "html": "We can create campaign assets and a rollout plan around the channels and formats you need."
+          "html": "Yes. We can prepare the social content, ad copy, images and video for an agreed Google Ads or Meta Ads launch. Paid campaign setup and management are separate services."
         },
         "will_the_brand_work_digitally": {
-          "html": "Will the brand work digitally?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Are assets prepared for each platform?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_consider_practical_use_across_screens_content_formats_a": {
-          "html": "We consider practical use across screens, content formats and other agreed touchpoints."
+          "html": "We prepare approved assets for the agreed Google, Facebook and Instagram placements, checking the required formats before handover."
         }
       },
       "next": {
         "how_do_we_keep_the_brand_consistent": {
-          "html": "How do we keep the brand consistent?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "How do we keep ads and social consistent?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "clear_guidelines_and_practical_templates_help_your_team_ma": {
-          "html": "Clear guidelines and practical templates help your team make everyday creative decisions."
+          "html": "We use a shared message, your brand guidelines and an agreed content calendar so organic posts and Google or Meta ad creative support the same offer."
         },
         "what_about_font_and_image_licences": {
           "html": "What about font and image licences?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2177,22 +2182,22 @@ window.SITE_CONFIG = {
           "html": "Can you create future content?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "yes_ongoing_production_can_be_scoped_around_the_identity_a": {
-          "html": "Yes. Ongoing production can be scoped around the identity and the next campaign priorities."
+          "html": "Yes. Ongoing Facebook and Instagram content, fresh ad assets and creative variations can be scoped around campaign priorities."
         },
         "can_we_extend_the_identity_later": {
-          "html": "Can we extend the identity later?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Can we add more formats later?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "a_considered_brand_system_gives_us_a_foundation_for_adding": {
-          "html": "A considered brand system gives us a foundation for adding formats and touchpoints over time."
+          "html": "Yes. We can add social or ad formats as your Google Ads and Meta Ads requirements evolve. Additional volumes and production costs are agreed before work begins."
         },
         "one_distinctive_brand_language": {
-          "html": "One distinctive brand language"
+          "html": "Consistent social and ad creative"
         },
         "positioning_before_decoration": {
-          "html": "Positioning before decoration"
+          "html": "Campaign messages before production"
         },
         "practical_tools_for_your_team": {
-          "html": "Practical tools for your team"
+          "html": "Approved assets for agreed placements"
         },
         "brand_content_specialist_at_work": {
           "src": "assets/brand-feature.avif",
@@ -2201,18 +2206,18 @@ window.SITE_CONFIG = {
       },
       "start": {
         "give_your_next_chapter_a_voice": {
-          "html": "Give your next chapter a voice."
+          "html": "Let’s create your next campaign assets."
         }
       },
       "creative": {
         "a_story_with_substance": {
-          "html": "A story with substance."
+          "html": "Creative that supports the campaign."
         },
         "we_look_beyond_the_surface_to_understand_what_your_busines": {
-          "html": "We look beyond the surface to understand what your business stands for. That thinking becomes a distinctive creative direction, with a clear role for every visual and every word."
+          "html": "We start with the customer question your content needs to answer. That brief shapes social posts, captions and ad assets for Google, Facebook and Instagram, with a clear role for each format."
         },
         "from_a_first_introduction_to_a_detailed_campaign_your_bran": {
-          "html": "From a first introduction to a detailed campaign, your brand should feel like one connected idea. We turn the direction into useful assets that make the story easier to tell."
+          "html": "Organic social and paid advertising should tell a consistent story. We build content around the agreed offer, prepare creative variations and use campaign feedback to inform the next production brief."
         },
         "brand_content_creative_detail": {
           "src": "assets/brand-editorial-1.webp",
@@ -2247,22 +2252,22 @@ window.SITE_CONFIG = {
       },
       "stages": {
         "a_voice_people_follow": {
-          "html": "A voice people follow."
+          "html": "Meta Ads, from audience to action."
         },
         "your_next_chapter_listen_understand_your_audience": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Listen</strong><span>Understand your audience.</span>"
+          "html": "<small>META ADS</small><strong>Listen</strong><span>Review your offer and audience.</span>"
         },
         "your_next_chapter_position_find_your_place_in_the_feed": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Position</strong><span>Find your place in the feed.</span>"
+          "html": "<small>META ADS</small><strong>Position</strong><span>Plan Facebook and Instagram ads.</span>"
         },
         "your_next_chapter_create_build_a_recognisable_content_styl": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Create</strong><span>Build a recognisable content style.</span>"
+          "html": "<small>META ADS</small><strong>Create</strong><span>Prepare creative variations.</span>"
         },
         "your_next_chapter_connect_start_a_useful_conversation": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Connect</strong><span>Start a useful conversation.</span>"
+          "html": "<small>META ADS</small><strong>Connect</strong><span>Launch approved campaigns.</span>"
         },
         "your_next_chapter_refine_learn_from_the_response": {
-          "html": "<small>YOUR NEXT CHAPTER</small><strong>Refine</strong><span>Learn from the response.</span>"
+          "html": "<small>META ADS</small><strong>Refine</strong><span>Learn from campaign response.</span>"
         },
         "listen": {
           "html": "Listen"
@@ -2278,95 +2283,95 @@ window.SITE_CONFIG = {
         },
         "social_media_listen": {
           "src": "assets/social-stage-1.avif",
-          "alt": "Social Media: Listen"
+          "alt": "Meta Ads: Listen"
         },
         "social_media_position": {
           "src": "assets/social-stage-2.avif",
-          "alt": "Social Media: Position"
+          "alt": "Meta Ads: Position"
         },
         "social_media_create": {
           "src": "assets/social-stage-3.avif",
-          "alt": "Social Media: Create"
+          "alt": "Meta Ads: Create"
         },
         "social_media_connect": {
           "src": "assets/social-stage-4.avif",
-          "alt": "Social Media: Connect"
+          "alt": "Meta Ads: Connect"
         },
         "social_media_refine": {
           "src": "assets/social-stage-5.avif",
-          "alt": "Social Media: Refine"
+          "alt": "Meta Ads: Refine"
         }
       },
       "approach": {
         "a_recognisable_voice_a_real_connection": {
-          "html": "A recognisable voice. A real connection."
+          "html": "Facebook. Instagram. A focused offer."
         },
         "bring_your_story_audience_and_channel_strategy_into_one_co": {
-          "html": "Bring your story, audience and channel strategy into one consistent social presence."
+          "html": "We plan Meta Ads around your offer, target market and the action you want people to take."
         },
         "bring_your_story_audience_and_channel_strategy_into_one_co_2": {
-          "html": "Build a social presence your audience recognises, with useful content and a consistent brand voice."
+          "html": "Connect Facebook and Instagram advertising with creative testing and a clear measurement plan."
         },
         "make_your_brand_part_of_a_conversation_people_actually_wan": {
-          "html": "Make your brand part of a conversation people actually want to join."
+          "html": "Build recognition and encourage relevant actions through Facebook and Instagram campaigns."
         }
       },
       "planning": {
         "channel_direction": {
-          "html": "Channel direction"
+          "html": "Meta Ads setup"
         },
         "audience_research_platform_priorities_and_a_practical_cont": {
-          "html": "A one-off strategy project covering audience research, platform priorities and a practical content framework."
+          "html": "A one-off Meta account and asset review, Facebook and Instagram campaign plan, and measurement roadmap."
         },
         "monthly_content": {
-          "html": "Monthly content"
+          "html": "Meta Ads management"
         },
         "a_tailored_calendar_original_creative_and_monthly_reportin": {
-          "html": "Monthly content planning and 8 original posts for one social channel, with caption writing and performance reporting."
+          "html": "Monthly Facebook and Instagram campaign management, audience and creative testing, and reporting. Meta media spend and new content production are separate."
         },
         "which_platforms_should_we_use": {
-          "html": "Which platforms should we use?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Where will our Meta ads appear?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_recommend_channels_around_your_audience_resources_and_g": {
-          "html": "We recommend channels around your audience, resources and goals, rather than trying to be everywhere."
+          "html": "We plan Facebook and Instagram placements around your audience, objective and available assets. The placement mix is agreed as part of the campaign plan."
         },
         "do_you_write_the_captions": {
-          "html": "Do you write the captions?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Do you write the ad copy?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "yes_caption_writing_and_tone_of_voice_guidance_can_be_incl": {
-          "html": "Yes. Caption writing and tone-of-voice guidance can be included in the agreed content scope."
+          "html": "Ad copy can be included in the agreed creative scope. Image, video and other new asset production are quoted separately from campaign management."
         },
         "can_you_use_our_existing_photos": {
           "html": "Can you use our existing photos?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "yes_we_review_the_quality_and_usage_rights_then_combine_su": {
-          "html": "Yes. We review the quality and usage rights, then combine suitable assets with a fresh creative direction."
+          "html": "Yes. We review quality, usage rights and suitability for Facebook and Instagram placements before using your assets in campaigns."
         },
         "how_is_content_approved": {
-          "html": "How is content approved?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "How are Meta campaigns approved?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "you_receive_an_organised_calendar_with_agreed_review_dates": {
-          "html": "You receive an organised calendar with agreed review dates before anything is published."
+          "html": "You review the offer, ad copy, creative, destinations and budget before we launch campaigns in Meta Ads Manager."
         },
         "is_community_management_included": {
-          "html": "Is community management included?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Do you review Meta Pixel and Conversions API?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "it_can_be_included_we_agree_response_times_topics_and_esca": {
-          "html": "It can be included. We agree response times, topics and escalation rules before launch."
+          "html": "We can review your Meta Pixel setup and Conversions API requirements. Implementation depends on your website, access and technical resources and is scoped separately."
         },
         "are_paid_campaigns_included": {
-          "html": "Are paid campaigns included?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Is organic social management included?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "paid_media_is_scoped_separately_so_your_production_and_adv": {
-          "html": "Paid media is scoped separately so your production and advertising budgets remain clear."
+          "html": "Organic posting and community management are part of our Social Media & Content service and can be added to the scope. Meta Ads management covers paid campaigns."
         },
         "social_media_project_detail": {
           "src": "assets/social-detail-1.avif",
-          "alt": "Social Media project detail"
+          "alt": "Meta Ads project detail"
         },
         "social_media_creative_process": {
           "src": "assets/social-detail-2.avif",
-          "alt": "Social Media creative process"
+          "alt": "Meta Ads creative process"
         }
       },
       "working": {
@@ -2374,7 +2379,7 @@ window.SITE_CONFIG = {
           "html": "What do you need from us?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "brand_guidelines_existing_channels_audience_insights_and_a": {
-          "html": "Brand guidelines, existing channels, audience insights and a clear view of your priorities are a useful starting point."
+          "html": "Your offer, website, Facebook Page, Instagram profile and Meta ad account are a useful starting point. We agree the required account permissions and review available creative and measurement."
         },
         "how_much_input_will_we_have": {
           "html": "How much input will we have?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2383,16 +2388,16 @@ window.SITE_CONFIG = {
           "html": "We agree regular checkpoints and keep approvals with your nominated decision maker."
         },
         "can_we_start_with_one_channel": {
-          "html": "Can we start with one channel?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Can we advertise on just one platform?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "absolutely_a_focused_channel_is_often_the_best_place_to_bu": {
-          "html": "Absolutely. A focused channel is often the best place to build a consistent content rhythm."
+          "html": "Yes. We can plan a Facebook-only or Instagram-only campaign where that suits your audience and goals, or assess placements across both."
         },
         "how_often_will_we_review_results": {
           "html": "How often will we review results?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_agree_a_reporting_rhythm_usually_monthly_and_connect_th": {
-          "html": "We agree a reporting rhythm, usually monthly, and connect the findings with practical content decisions."
+          "html": "We agree a reporting schedule, usually monthly, and connect Meta Ads performance with practical audience, budget and creative decisions."
         },
         "can_the_scope_change_later": {
           "html": "Can the scope change later?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
@@ -2406,62 +2411,62 @@ window.SITE_CONFIG = {
           "html": "What does the report cover?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "relevant_indicators_such_as_reach_engagement_and_audience_": {
-          "html": "Relevant indicators such as reach, engagement and audience response, with context and recommendations."
+          "html": "Meta Ads spend, reach, clicks and agreed conversion measures, with context on attribution and practical recommendations. We distinguish platform-reported results from your available business data."
         },
         "can_you_train_our_internal_team": {
-          "html": "Can you train our internal team?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Can our team take over Meta Ads?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "handover_sessions_templates_and_practical_content_guidance": {
-          "html": "Handover sessions, templates and practical content guidance can be added to the scope."
+          "html": "Campaign documentation, findings and a Meta Ads Manager handover can be included in the scope."
         },
         "who_owns_the_finished_content": {
-          "html": "Who owns the finished content?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
+          "html": "Who owns the ad account and creative?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "usage_and_ownership_are_defined_in_the_project_agreement_i": {
-          "html": "Usage and ownership are defined in the project agreement, including any third-party asset licences."
+          "html": "You retain ownership of your Meta ad account. Usage and ownership of commissioned creative, including any third-party licences, are defined in the project agreement."
         },
         "what_happens_between_campaigns": {
           "html": "What happens between campaigns?<span class=\"round-plus\" aria-hidden=\"true\"></span>"
         },
         "we_can_maintain_an_agreed_publishing_rhythm_or_hand_over_t": {
-          "html": "We can maintain an agreed publishing rhythm or hand over the approved assets and calendar."
+          "html": "We can continue agreed campaign monitoring or pause advertising and hand over the findings. Ongoing organic content is scoped through our Social Media & Content service."
         },
         "a_connected_social_presence": {
-          "html": "A connected social presence"
+          "html": "Focused Facebook & Instagram campaigns"
         },
         "a_clear_voice_across_channels": {
-          "html": "A clear voice across channels"
+          "html": "Consistent offers and ad creative"
         },
         "creative_built_for_your_audience": {
-          "html": "Creative built for your audience"
+          "html": "Audience and conversion insights"
         },
         "social_media_specialist_at_work": {
           "src": "assets/social-feature.avif",
-          "alt": "Social Media specialist at work"
+          "alt": "Meta Ads specialist at work"
         }
       },
       "start": {
         "ready_to_start_a_conversation": {
-          "html": "Ready to start a conversation?"
+          "html": "Let’s plan your Meta Ads."
         }
       },
       "creative": {
         "content_with_a_point_of_view": {
-          "html": "Content with a point of view."
+          "html": "Creative made for Facebook and Instagram."
         },
         "we_connect_audience_insight_with_art_direction_writing_and": {
-          "html": "We connect audience insight with art direction, writing and a repeatable production process. Every piece of content has a role in the bigger brand story."
+          "html": "We develop ad messages and creative briefs around your offer and the placements in your Meta campaign plan. Variations in the opening message, image or video help us test how people respond."
         },
         "from_the_opening_line_to_the_final_frame_the_details_shoul": {
-          "html": "From the opening line to the final frame, the details should feel recognisably yours. We build practical creative systems that help your team stay consistent without becoming predictable."
+          "html": "Your Facebook and Instagram ads should feel consistent with your organic content and landing pages. Our content service can supply the agreed posts, captions and creative assets alongside paid campaign management."
         },
         "social_media_creative_detail": {
           "src": "assets/social-editorial-1.webp",
-          "alt": "Social Media creative detail"
+          "alt": "Meta Ads creative detail"
         },
         "social_media_collaboration": {
           "src": "assets/social-editorial-2.webp",
-          "alt": "Social Media collaboration"
+          "alt": "Meta Ads collaboration"
         }
       }
     },
@@ -2547,32 +2552,32 @@ window.SITE_CONFIG = {
   },
   "pageMeta": {
     "home": {
-      "description": "FORMA is an independent marketing agency bringing together social media, paid advertising, brand strategy and original content."
+      "description": "FORMA focuses on Google Ads and Meta Ads for Facebook and Instagram, supported by conversion measurement, social media content and ad creative."
     },
     "terms": {
-      "description": "Terms for using the FORMA demonstration website, including service proposals, illustrative content, intellectual property and marketing outcomes."
+      "description": "Terms for using FORMA’s Google Ads, Meta Ads and content services website, including proposals, illustrative content, ownership and campaign outcomes."
     },
     "cookies": {
       "description": "How the FORMA website uses essential contact form cookies and local storage, with information about external links and browser preferences."
     },
     "paid-advertising": {
-      "description": "Google and social advertising from FORMA, with campaign planning, creative testing, optimisation and transparent reporting. Media spend is separate."
+      "description": "Google Ads management for Search, Display, YouTube and Performance Max, with Google Analytics 4 and conversion tracking support. Explore FORMA’s approach."
     },
     "brand-content": {
-      "description": "Brand positioning, visual identity, messaging and campaign content from FORMA. Explore our creative process, deliverables and illustrative project fees."
+      "description": "Facebook and Instagram content, captions, social posts and ad creative for Google Ads and Meta Ads. Explore FORMA’s content planning and production services."
     },
     "social-media": {
-      "description": "Social media strategy, content planning, production, community management and reporting from FORMA. Explore our approach and illustrative fees."
+      "description": "Meta Ads management for Facebook and Instagram: audience planning, creative testing, Meta Pixel measurement reviews and campaign reporting from FORMA."
     },
     "privacy": {
-      "description": "Learn how the FORMA website handles contact enquiries and personal information, including processing, service providers and your choices."
+      "description": "How FORMA handles enquiries about Google Ads, Meta Ads and content services, including personal information, processing, service providers and your choices."
     }
   },
   "galleryLabels": {
     "all": "All perspectives",
-    "strategy": "Strategy",
-    "brand": "Brand identity",
-    "content": "Content",
-    "digital": "Paid campaigns"
+    "strategy": "Campaign strategy",
+    "brand": "Ad creative",
+    "content": "Social content",
+    "digital": "Google & Meta Ads"
   }
 };
