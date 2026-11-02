@@ -30,3 +30,18 @@
 
 /* Leave room for the card lift while keeping adjacent slides clipped. */
 .support-swiper{padding-block:8px;margin-block:-8px}
+
+/* Assemble the four mosaic tiles in reading order when they enter the viewport. */
+.mosaic-grid.puzzle-ready:not(.puzzle-assembled)>*{opacity:0}
+.mosaic-grid.puzzle-ready>:nth-child(1){--puzzle-x:-24px;--puzzle-y:-18px;--puzzle-turn:-2deg;--puzzle-delay:0ms}
+.mosaic-grid.puzzle-ready>:nth-child(2){--puzzle-x:24px;--puzzle-y:-18px;--puzzle-turn:2deg;--puzzle-delay:230ms}
+.mosaic-grid.puzzle-ready>:nth-child(3){--puzzle-x:-24px;--puzzle-y:18px;--puzzle-turn:2deg;--puzzle-delay:460ms}
+.mosaic-grid.puzzle-ready>:nth-child(4){--puzzle-x:24px;--puzzle-y:18px;--puzzle-turn:-2deg;--puzzle-delay:690ms}
+.mosaic-grid.puzzle-assembled>*{animation:mosaic-piece-in 900ms cubic-bezier(.22,1,.36,1) var(--puzzle-delay,0ms) both}
+@keyframes mosaic-piece-in{
+ from{opacity:0;transform:translate(var(--puzzle-x,0px),var(--puzzle-y,18px)) rotate(var(--puzzle-turn,0deg)) scale(.96)}
+ to{opacity:1;transform:translate(0,0) rotate(0deg) scale(1)}
+}
+@media(prefers-reduced-motion:reduce){
+ .mosaic-grid.puzzle-ready>*,.mosaic-grid.puzzle-ready:not(.puzzle-assembled)>*{opacity:1;animation:none;transform:none}
+}

@@ -125,5 +125,12 @@ function enhanceDesign(c,services){
   qsa('[data-principle]').forEach((button,i)=>button.addEventListener('click',async()=>{if(chosen===i)return;chosen=i;const current=++turn;qsa('[data-principle]').forEach(x=>{x.classList.toggle('active',x===button);x.setAttribute('aria-selected',String(x===button));x.tabIndex=x===button?0:-1});panel.setAttribute('aria-labelledby',button.id);if(!reduced)await panel.animate({opacity:[1,0],transform:['translateY(0)','translateY(4px)']},{duration:160,fill:'forwards'}).finished.catch(()=>{});if(current!==turn)return;render(panel,i);panel.getAnimations().forEach(a=>a.cancel());if(!reduced)panel.animate({opacity:[0,1],transform:['translateY(4px)','translateY(0)']},{duration:350,easing:'ease-out'})}));
  }
  qsa('[role=tablist]').forEach(list=>list.addEventListener('keydown',e=>{if(!['ArrowRight','ArrowLeft','ArrowDown','ArrowUp','Home','End'].includes(e.key))return;const bs=qsa('[role=tab]',list);let i=bs.indexOf(document.activeElement);if(i<0)return;e.preventDefault();i=e.key==='Home'?0:e.key==='End'?bs.length-1:(i+(['ArrowRight','ArrowDown'].includes(e.key)?1:-1)+bs.length)%bs.length;bs[i].focus();bs[i].click()}));
+ if(!reduced)qsa('.feature-mosaic .mosaic-grid').forEach(grid=>{
+  const observer=new IntersectionObserver(entries=>{
+   if(!entries.some(entry=>entry.isIntersecting))return;
+   grid.classList.add('puzzle-assembled');observer.disconnect();
+  },{threshold:.2,rootMargin:'0px 0px -6% 0px'});
+  grid.classList.add('puzzle-ready');observer.observe(grid);
+ });
  if(!reduced){let queued=false;const photos=qsa('.parallax-media');window.addEventListener('scroll',()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{photos.forEach(p=>{const r=p.parentElement.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight)p.style.transform=`translateY(${(r.top-innerHeight/2)*.09}px) scale(1.13)`});queued=false})},{passive:true})}
 }
