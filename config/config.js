@@ -198,7 +198,7 @@ window.SITE_CONFIG = {
     {
       "name": "Google Ads & measurement",
       "description": "Connecting search intent with campaign decisions.",
-      "image": "team-strategy-hq.jpg",
+      "image": "team-strategy-hq.avif",
       "alt": "A strategist discussing the project direction with colleagues"
     },
     {
@@ -258,7 +258,7 @@ window.SITE_CONFIG = {
         "Creative matched to the placement",
         "A defined test and review plan"
       ],
-      "image": "assets/principle-1.webp",
+      "image": "assets/principle-1.avif",
       "alt": "Creative planning around a shared brief"
     },
     {
@@ -270,7 +270,7 @@ window.SITE_CONFIG = {
         "Consistent offers and messaging",
         "Clear ownership of accounts and assets"
       ],
-      "image": "assets/principle-2.webp",
+      "image": "assets/principle-2.avif",
       "alt": "A collaborative agency team"
     },
     {
@@ -282,7 +282,7 @@ window.SITE_CONFIG = {
         "Context for platform attribution",
         "Practical recommendations for the next test"
       ],
-      "image": "assets/principle-3.webp",
+      "image": "assets/principle-3.avif",
       "alt": "Reviewing the next creative direction"
     }
   ],
@@ -338,15 +338,15 @@ window.SITE_CONFIG = {
         "alt": "Illustrative creative lead"
       },
       "img": {
-        "src": "assets/purpose.png",
+        "src": "assets/purpose.webp",
         "alt": ""
       },
       "img_3": {
-        "src": "assets/teamwork.png",
+        "src": "assets/teamwork.webp",
         "alt": ""
       },
       "img_6": {
-        "src": "assets/partnership.png",
+        "src": "assets/partnership.webp",
         "alt": ""
       },
       "discover": {
@@ -356,7 +356,7 @@ window.SITE_CONFIG = {
         "html": "Create"
       },
       "img_2": {
-        "src": "assets/discover.png",
+        "src": "assets/discover.webp",
         "alt": ""
       },
       "define": {
@@ -555,11 +555,11 @@ window.SITE_CONFIG = {
           "placeholder": "Google Ads, Meta Ads, content…"
         },
         "abstract_creative_direction": {
-          "src": "assets/mini-1.webp",
+          "src": "assets/mini-1.avif",
           "alt": "Abstract creative direction"
         },
         "abstract_creative_direction_2": {
-          "src": "assets/mini-2.webp",
+          "src": "assets/mini-2.avif",
           "alt": "Abstract creative direction"
         },
         "back_to_top": {
@@ -676,7 +676,7 @@ window.SITE_CONFIG = {
           "html": "Social content"
         },
         "creative_perspective_in_the_studio": {
-          "src": "assets/about.webp",
+          "src": "assets/about.avif",
           "alt": "Creative perspective in the studio",
           "width": "1000",
           "height": "1200"
@@ -729,7 +729,7 @@ window.SITE_CONFIG = {
           "href": "#contact"
         },
         "marketing_team_discussing_a_campaign": {
-          "src": "assets/project-wide.webp",
+          "src": "assets/project-wide.avif",
           "alt": "Marketing team discussing a campaign"
         }
       },
@@ -777,63 +777,63 @@ window.SITE_CONFIG = {
           "html": "Work in your Google and Meta accounts with agreed permissions."
         },
         "img_2": {
-          "src": "assets/distinctive.png",
+          "src": "assets/distinctive.webp",
           "alt": ""
         },
         "creative_team_and_studio_inspiration": {
-          "src": "assets/strip-1.webp",
+          "src": "assets/strip-1.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_2": {
-          "src": "assets/strip-2.webp",
+          "src": "assets/strip-2.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_3": {
-          "src": "assets/strip-3.webp",
+          "src": "assets/strip-3.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_4": {
-          "src": "assets/strip-1.webp",
+          "src": "assets/strip-1.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_5": {
-          "src": "assets/strip-2.webp",
+          "src": "assets/strip-2.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_6": {
-          "src": "assets/strip-3.webp",
+          "src": "assets/strip-3.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_7": {
-          "src": "assets/strip-4.webp",
+          "src": "assets/strip-4.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_8": {
-          "src": "assets/strip-5.webp",
+          "src": "assets/strip-5.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_9": {
-          "src": "assets/strip-6.webp",
+          "src": "assets/strip-6.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_10": {
-          "src": "assets/strip-4.webp",
+          "src": "assets/strip-4.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_11": {
-          "src": "assets/strip-5.webp",
+          "src": "assets/strip-5.avif",
           "alt": "Creative team and studio inspiration"
         },
         "creative_team_and_studio_inspiration_12": {
-          "src": "assets/strip-6.webp",
+          "src": "assets/strip-6.avif",
           "alt": "Creative team and studio inspiration"
         },
         "img_4": {
-          "src": "assets/report.png",
+          "src": "assets/report.webp",
           "alt": ""
         },
         "img_5": {
-          "src": "assets/grow.png",
+          "src": "assets/grow.webp",
           "alt": ""
         }
       },
@@ -888,7 +888,7 @@ window.SITE_CONFIG = {
           "html": "DRAG TO DISCOVER · HOVER TO EXPLORE"
         },
         "the_everyday_edit_2": {
-          "src": "assets/work-skin.webp",
+          "src": "assets/work-skin.avif",
           "alt": "The content collection."
         },
         "in_good_company_2": {
@@ -896,7 +896,7 @@ window.SITE_CONFIG = {
           "alt": "The Meta campaign."
         },
         "a_fresh_perspective_2": {
-          "src": "assets/work-design.webp",
+          "src": "assets/work-design.avif",
           "alt": "The Google campaign."
         }
       },
@@ -978,15 +978,15 @@ window.SITE_CONFIG = {
           "html": "<span class=\"process-number\">12.</span>Next-step roadmap"
         },
         "decor_sculpture": {
-          "src": "assets/sculpture.webp",
+          "src": "assets/sculpture.avif",
           "alt": ""
         },
         "img_2": {
-          "src": "assets/create.png",
+          "src": "assets/create.webp",
           "alt": ""
         },
         "img_3": {
-          "src": "assets/evolve.png",
+          "src": "assets/evolve.webp",
           "alt": ""
         }
       },
@@ -1163,19 +1163,19 @@ window.SITE_CONFIG = {
           "href": "#contact"
         },
         "brand_direction_on_a_studio_screen": {
-          "src": "assets/gallery-1.webp",
+          "src": "assets/gallery-1.avif",
           "alt": "Brand direction on a studio screen"
         },
         "visual_identity_and_graphic_design": {
-          "src": "assets/gallery-2.webp",
+          "src": "assets/gallery-2.avif",
           "alt": "Visual identity and graphic design"
         },
         "creative_work_in_progress": {
-          "src": "assets/gallery-3.webp",
+          "src": "assets/gallery-3.avif",
           "alt": "Creative work in progress"
         },
         "design_tools_and_campaign_planning": {
-          "src": "assets/gallery-4.webp",
+          "src": "assets/gallery-4.avif",
           "alt": "Design tools and campaign planning"
         }
       },
@@ -1251,27 +1251,27 @@ window.SITE_CONFIG = {
           "href": "brand-content.html"
         },
         "img": {
-          "src": "assets/icon-1.png",
+          "src": "assets/icon-1.webp",
           "alt": ""
         },
         "social_media_collaboration": {
-          "src": "assets/expertise-1.webp",
+          "src": "assets/expertise-1.avif",
           "alt": "Meta Ads collaboration"
         },
         "img_2": {
-          "src": "assets/icon-2.png",
+          "src": "assets/icon-2.webp",
           "alt": ""
         },
         "paid_advertising_collaboration": {
-          "src": "assets/expertise-2.webp",
+          "src": "assets/expertise-2.avif",
           "alt": "Google Ads collaboration"
         },
         "img_3": {
-          "src": "assets/icon-3.png",
+          "src": "assets/icon-3.webp",
           "alt": ""
         },
         "brand_content_collaboration": {
-          "src": "assets/expertise-3.webp",
+          "src": "assets/expertise-3.avif",
           "alt": "Social media and content collaboration"
         }
       },
@@ -1308,7 +1308,7 @@ window.SITE_CONFIG = {
           "html": "Open conversations, shared decisions and a team invested in the whole picture."
         },
         "img_2": {
-          "src": "assets/distinctive.png",
+          "src": "assets/distinctive.webp",
           "alt": ""
         }
       },
@@ -1338,7 +1338,7 @@ window.SITE_CONFIG = {
           "html": "DATA & NEXT STEPS"
         },
         "a_contemporary_creative_workplace": {
-          "src": "assets/metrics.webp",
+          "src": "assets/metrics.avif",
           "alt": "A contemporary creative workplace"
         }
       },
@@ -1372,11 +1372,11 @@ window.SITE_CONFIG = {
           "html": "A shared view of your budgets, creative approvals and next campaign decisions."
         },
         "a_creative_project_discussion": {
-          "src": "assets/feature-2.webp",
+          "src": "assets/feature-2.avif",
           "alt": "A creative project discussion"
         },
         "architectural_detail_representing_new_perspectives": {
-          "src": "assets/mosaic.webp",
+          "src": "assets/mosaic.avif",
           "alt": "Architectural detail representing new perspectives"
         }
       },
@@ -1422,15 +1422,15 @@ window.SITE_CONFIG = {
           "href": "#contact"
         },
         "img_2": {
-          "src": "assets/report.png",
+          "src": "assets/report.webp",
           "alt": ""
         },
         "img_4": {
-          "src": "assets/grow.png",
+          "src": "assets/grow.webp",
           "alt": ""
         },
         "illustrative_creative_collaborator": {
-          "src": "assets/partner.webp",
+          "src": "assets/partner.avif",
           "alt": "Illustrative creative collaborator"
         }
       },
@@ -1514,7 +1514,7 @@ window.SITE_CONFIG = {
           "html": "We can review Google Analytics 4, Google Tag Manager, Google Ads conversion tracking and Meta Pixel requirements. Conversions API and other implementation work are scoped around your website, technical resources and applicable consent requirements."
         },
         "img": {
-          "src": "assets/sculpture.webp",
+          "src": "assets/sculpture.avif",
           "alt": ""
         }
       },
@@ -1550,7 +1550,7 @@ window.SITE_CONFIG = {
           "html": "Google Ads. Meta Ads.<br>One connected approach."
         },
         "contemporary_architecture": {
-          "src": "assets/building.webp",
+          "src": "assets/building.avif",
           "alt": "Contemporary architecture"
         }
       },
@@ -1750,19 +1750,19 @@ window.SITE_CONFIG = {
     "paid-advertising": {
       "service_hero": {
         "planning_an_advertising_campaign_with_charts_and_reports": {
-          "src": "assets/paid-hero-1-hq.jpg",
+          "src": "assets/paid-hero-1-hq.avif",
           "alt": "Planning an advertising campaign with charts and reports",
           "width": "2400",
           "height": "1800"
         },
         "analysing_campaign_data_across_a_tablet_and_laptop": {
-          "src": "assets/paid-hero-2-hq.jpg",
+          "src": "assets/paid-hero-2-hq.avif",
           "alt": "Analysing campaign data across a tablet and laptop",
           "width": "2400",
           "height": "1350"
         },
         "a_marketing_team_reviewing_campaign_strategy": {
-          "src": "assets/paid-hero-3-hq.jpg",
+          "src": "assets/paid-hero-3-hq.avif",
           "alt": "A marketing team reviewing campaign strategy",
           "width": "2400",
           "height": "1800"
@@ -1982,11 +1982,11 @@ window.SITE_CONFIG = {
           "html": "Google Analytics 4, Google Tag Manager and conversion tracking help give campaign decisions context. We scope the measurement work, explain data limitations and use the findings to guide practical tests."
         },
         "paid_advertising_creative_detail": {
-          "src": "assets/paid-editorial-1.webp",
+          "src": "assets/paid-editorial-1.avif",
           "alt": "Google Ads creative detail"
         },
         "paid_advertising_collaboration": {
-          "src": "assets/paid-editorial-2.webp",
+          "src": "assets/paid-editorial-2.avif",
           "alt": "Google Ads collaboration"
         }
       }
@@ -1994,19 +1994,19 @@ window.SITE_CONFIG = {
     "brand-content": {
       "service_hero": {
         "typography_and_colour_swatches_for_a_brand_identity": {
-          "src": "assets/brand-hero-1-hq.jpg",
+          "src": "assets/brand-hero-1-hq.avif",
           "alt": "Typography and colour swatches for a brand identity",
           "width": "2400",
           "height": "3600"
         },
         "exploring_colour_palettes_and_visual_direction": {
-          "src": "assets/brand-hero-2-hq.jpg",
+          "src": "assets/brand-hero-2-hq.avif",
           "alt": "Exploring colour palettes and visual direction",
           "width": "2400",
           "height": "1600"
         },
         "a_designer_selecting_a_brand_colour_palette": {
-          "src": "assets/brand-hero-3-hq.jpg",
+          "src": "assets/brand-hero-3-hq.avif",
           "alt": "A designer selecting a brand colour palette",
           "width": "2400",
           "height": "2400"
@@ -2220,11 +2220,11 @@ window.SITE_CONFIG = {
           "html": "Organic social and paid advertising should tell a consistent story. We build content around the agreed offer, prepare creative variations and use campaign feedback to inform the next production brief."
         },
         "brand_content_creative_detail": {
-          "src": "assets/brand-editorial-1.webp",
+          "src": "assets/brand-editorial-1.avif",
           "alt": "Brand & Content creative detail"
         },
         "brand_content_collaboration": {
-          "src": "assets/brand-editorial-2.webp",
+          "src": "assets/brand-editorial-2.avif",
           "alt": "Brand & Content collaboration"
         }
       }
@@ -2232,19 +2232,19 @@ window.SITE_CONFIG = {
     "social-media": {
       "service_hero": {
         "a_creator_recording_social_media_content_with_a_smartphone": {
-          "src": "assets/social-hero-1-hq.jpg",
+          "src": "assets/social-hero-1-hq.avif",
           "alt": "A creator recording social media content with a smartphone",
           "width": "2400",
           "height": "3600"
         },
         "a_team_planning_content_around_a_shared_table": {
-          "src": "assets/social-hero-2-hq.jpg",
+          "src": "assets/social-hero-2-hq.avif",
           "alt": "A team planning content around a shared table",
           "width": "2400",
           "height": "1602"
         },
         "reviewing_audience_insights_and_campaign_reports": {
-          "src": "assets/social-hero-3-hq.jpg",
+          "src": "assets/social-hero-3-hq.avif",
           "alt": "Reviewing audience insights and campaign reports",
           "width": "2400",
           "height": "1600"
@@ -2461,11 +2461,11 @@ window.SITE_CONFIG = {
           "html": "Your Facebook and Instagram ads should feel consistent with your organic content and landing pages. Our content service can supply the agreed posts, captions and creative assets alongside paid campaign management."
         },
         "social_media_creative_detail": {
-          "src": "assets/social-editorial-1.webp",
+          "src": "assets/social-editorial-1.avif",
           "alt": "Meta Ads creative detail"
         },
         "social_media_collaboration": {
-          "src": "assets/social-editorial-2.webp",
+          "src": "assets/social-editorial-2.avif",
           "alt": "Meta Ads collaboration"
         }
       }
